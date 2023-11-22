@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Button from "./Button";
 
 export default function AboutHerosection() {
   return (
@@ -13,7 +14,7 @@ export default function AboutHerosection() {
         Presence
       </h6>
       <div className="relative">
-        <div className="flex justify-center my-4">
+        <div className="my-4">
           <Image
             src="/asset/nova-about-hero.png"
             alt="Novasphere hero picture"
@@ -23,7 +24,7 @@ export default function AboutHerosection() {
           />
         </div>
         <div
-          className="rounded-md shadow-lg p-2 testimony-abs"
+          className="rounded-md shadow-lg p-5 testimony-abs pb-10"
           style={{ background: "#fff" }}
         >
           <hc className="header-3_bold mb-3">
@@ -36,7 +37,7 @@ export default function AboutHerosection() {
             tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <Link href="/">
-            <button className="btn-nova_bg">Get started</button>
+            <Button btnText="Get started" />
           </Link>
         </div>
       </div>

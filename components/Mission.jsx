@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Mission() {
   return (
-    <div className="main-cainter">
+    <div>
       <div className="flex justify-center my-4">
         <Image
           src="/asset/nova-mission_image.png"
@@ -12,12 +12,9 @@ export default function Mission() {
           className="rounded-md"
         />
       </div>
-      <div className="flex justify-center text-center">
-        <div className="w-3/4">
-          <h1 className="header-2_bold mt-3 text-center">
-            Experience the power to enjoy seemless
-            <span className="text-warning500 ps-1">Digital</span> solutions
-          </h1>
+      <div className="flex justify-center text-center main-container">
+        <div className="" style={{ maxWidth: "50rem" }}>
+          <h1 className="header-2_bold mt-3 text-center">Our Vision</h1>
           <p className="text-2_regular mt-3 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -28,10 +25,7 @@ export default function Mission() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud
           </p>
-          <h1 className="header-2_bold mt-3 text-center">
-            Experience the power to enjoy seemless
-            <span className="text-warning500 ps-1">Digital</span> solutions
-          </h1>
+          <h1 className="header-2_bold mt-3 text-center">Our Mission</h1>
           <p className="text-2_regular mt-3 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -42,10 +36,7 @@ export default function Mission() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud
           </p>
-          <h1 className="header-2_bold mt-3 text-center">
-            Experience the power to enjoy seemless
-            <span className="text-warning500 ps-1">Digital</span> solutions
-          </h1>
+          <h1 className="header-2_bold mt-3 text-center">Our Objectives</h1>
           <p className="text-2_regular mt-3 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

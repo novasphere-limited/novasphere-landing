@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Button from "./Button";
 
 export default function StartProject() {
   return (
@@ -11,7 +12,7 @@ export default function StartProject() {
         quis nostrud
       </h6>
       <Link href="/">
-        <button className="btn-nova_bg">Get started</button>
+        <Button btnText="Get started" />
       </Link>
     </div>
   );

@@ -5,7 +5,7 @@ export default function OurWork() {
   return (
     <>
       <div className="main-container">
-        <h2 className="header-2_bold mb-3">Our Works</h2>
+        <h2 className="header-2_bold mb-3 text-center">Our Works</h2>
         <p className="text-2_regular mb-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

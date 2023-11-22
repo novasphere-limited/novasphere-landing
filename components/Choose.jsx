@@ -16,7 +16,7 @@ export default function Choose() {
             alt="Choose image"
             width={541}
             height={330}
-            className="rounded-md"
+            className="rounded-md w-full"
           />
         </div>
         <div>
@@ -27,14 +27,11 @@ export default function Choose() {
             ad minim veniam, quis nostrud Lorem ipsum dolor sit amet,
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud
           </h6>
         </div>
       </div>
       <div className="grid-2_diff2 items-center">
-        <div>
+        <div className="col-1">
           <h6 className="label-2_bold mb-3">Result Oriented</h6>
           <h6 className="label-2_regular mb-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -42,9 +39,6 @@ export default function Choose() {
             ad minim veniam, quis nostrud Lorem ipsum dolor sit amet,
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud
           </h6>
         </div>
         <div>
@@ -53,7 +47,7 @@ export default function Choose() {
             alt="Choose image"
             width={541}
             height={330}
-            className="rounded-md"
+            className="rounded-md w-full"
           />
         </div>
       </div>
@@ -64,7 +58,7 @@ export default function Choose() {
             alt="Choose image"
             width={541}
             height={330}
-            className="rounded-md"
+            className="rounded-md w-full"
           />
         </div>
         <div>
@@ -75,9 +69,6 @@ export default function Choose() {
             ad minim veniam, quis nostrud Lorem ipsum dolor sit amet,
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud
           </h6>
         </div>
       </div>
