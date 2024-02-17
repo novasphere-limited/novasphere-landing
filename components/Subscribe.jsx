@@ -8,10 +8,9 @@ export default function Subscribe() {
           Don&rsquo;t want to miss out information
         </h2>
         <h6 className="label-2_regular mb-5 text-center">
-          iincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud
+          Be Informed! Subscribe to our news letter
         </h6>
-        <form className=" lg:flex m-auto w-3/4 lg:border-2 rounded-md p-2">
+        <form className=" lg:flex m-auto w-3/4 lg:border-2 rounded-md p-2 lg:bg-white">
           <input
             type="email"
             placeholder="Enter your email to subscribe to our daily news"

@@ -1,8 +1,8 @@
 import Blog from "@/components/Blog";
 import BlogPost from "@/components/BlogPost";
-import ContactSection from "@/components/ContactSection";
 import LatestBlogPost from "@/components/LatestBlogPost";
 import Layout from "@/components/Layout";
+import StartProject from "@/components/StartProject";
 import Subscribe from "@/components/Subscribe";
 
 export default function BlogPage() {
@@ -12,7 +12,7 @@ export default function BlogPage() {
         <Blog />
         <BlogPost />
         <LatestBlogPost />
-        <ContactSection />
+        <StartProject />
         <Subscribe />
       </Layout>
     </div>

@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "@/components/Button";
 import Layout from "@/components/Layout";
-import ContactSection from "@/components/ContactSection";
 import Subscribe from "@/components/Subscribe";
+import StartProject from "@/components/StartProject";
 
 export default function InnerServicePage() {
   const router = useRouter();
@@ -60,7 +60,7 @@ export default function InnerServicePage() {
             exercitation ullamco laboris nisi ut aliquip ex ea commodo
           </p>
         </div>
-        <ContactSection />
+        <StartProject />
         <Subscribe />
       </Layout>
     </>

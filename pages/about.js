@@ -1,7 +1,6 @@
 import AboutHerosection from "@/components/AboutHerosection";
 import Ceo from "@/components/Ceo";
 import ClientTestimony from "@/components/ClientTestimony";
-import ContactSection from "@/components/ContactSection";
 import Layout from "@/components/Layout";
 import Mission from "@/components/Mission";
 import OurWork from "@/components/OurWork";
@@ -21,7 +20,6 @@ export default function About() {
         <Ceo />
         <Team />
         <ClientTestimony />
-        <ContactSection />
         <StartProject />
         <Subscribe />
       </Layout>

@@ -5,7 +5,8 @@ import Subscribe from "@/components/Subscribe";
 import Todo from "@/components/Todo";
 import HeroSection from "@/components/Herosection";
 import Layout from "@/components/Layout";
-import ContactSection from "@/components/ContactSection";
+import Counter from "@/components/Counter";
+import StartProject from "@/components/StartProject";
 
 export default function NovasphereHome() {
   return (
@@ -16,9 +17,11 @@ export default function NovasphereHome() {
         </div>
         <Todo />
         <OurWork />
+        <Counter endValue1={100} endValue2={150} endValue3={30} />
+
         <Choose />
         <ClientTestimony />
-        <ContactSection />
+        <StartProject />
         <Subscribe />
       </Layout>
     </div>

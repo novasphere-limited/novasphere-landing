@@ -340,11 +340,15 @@ body {
   font-size: 0.75rem;
   line-height: 18px;
 }
+
+.active-link {
+  color: #3090f8;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem 2rem;
+  padding: 1rem 2rem;
 }
 .navbar-mobile {
   display: none;
@@ -360,7 +364,7 @@ body {
   border-radius: 8px;
 }
 .main-container {
-  margin: 2rem 3rem;
+  padding: 2rem 3rem;
 }
 .subscribe-container {
   padding: 2rem 3rem;
@@ -393,6 +397,10 @@ body {
 }
 .footer-container_inner {
   padding: 0rem 2rem 2rem 2rem;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
 }
 .border-outline {
   padding: 1rem 0px 0px 2rem;
@@ -440,7 +448,7 @@ body {
 }
 .grid-3 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   column-gap: 8px;
   row-gap: 8px;
 }
@@ -481,6 +489,13 @@ body {
 .tabble th {
   padding: 12px;
   text-align: start;
+}
+
+.footer-flex_2 {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  gap: 2rem;
 }
 
 .blog-bg_image {
@@ -531,6 +546,9 @@ body {
     padding: 0.5rem 3rem;
     border-radius: 8px;
   }
+  .footer-grid {
+    grid-template-columns: 4fr 8fr;
+  }
   .navbar {
     display: none;
   }
@@ -539,7 +557,7 @@ body {
   }
 
   .main-container {
-    margin: 1.5rem 2rem;
+    padding: 1.5rem 2rem;
   }
   .testimony-abs {
     bottom: -20px;
@@ -864,7 +882,7 @@ body {
   }
 
   .main-container {
-    margin: 1rem 1.5rem;
+    padding: 1rem 1.5rem;
   }
   .blog-post_grid1 {
     grid-template-columns: 1fr;
@@ -1202,8 +1220,11 @@ body {
   .footer-flex_1 {
     flex: 1;
   }
-  .footer-flex_2 {
+  /* .footer-flex_2 {
     flex: 2;
+  } */
+  .footer-grid {
+    grid-template-columns: 1fr;
   }
   .grid-2_diff1 {
     display: grid;
@@ -1263,7 +1284,7 @@ body {
   }
 
   .main-container {
-    margin: 0.5rem 1rem;
+    padding: 0.5rem 1rem;
   }
   .header-1_black {
     font-weight: 900;
@@ -1577,12 +1598,16 @@ body {
   .abs-margin {
     margin-bottom: 6rem;
   }
+  .footer-flex_2 {
+    grid-template-columns: 3fr 5fr;
+    gap: 1rem;
+  }
 }
 @media (max-width: 550px) {
 }
 @media (max-width: 500px) {
   .main-container {
-    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
   }
   .testimony-img {
     height: 1000px;

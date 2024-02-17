@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Counter from "./Counter";
 
 export default function OurWork() {
   return (
@@ -11,6 +10,7 @@ export default function OurWork() {
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud
         </p>
+
         <div className="grid-2 items-center">
           <div className="w-full">
             <Image
@@ -31,7 +31,6 @@ export default function OurWork() {
           </div>
         </div>
       </div>
-      <Counter endValue1={100} endValue2={150} endValue3={30} />
     </>
   );
 }

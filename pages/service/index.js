@@ -1,6 +1,6 @@
-import ContactSection from "@/components/ContactSection";
 import Layout from "@/components/Layout";
 import ServiceHeroSection from "@/components/ServiceHeroSection";
+import StartProject from "@/components/StartProject";
 import Subscribe from "@/components/Subscribe";
 
 export default function Service() {
@@ -9,7 +9,7 @@ export default function Service() {
       <Layout>
         <div className="main-container">
           <ServiceHeroSection />
-          <ContactSection />
+          <StartProject />
         </div>
         <Subscribe />
       </Layout>

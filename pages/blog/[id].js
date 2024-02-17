@@ -4,7 +4,7 @@ import Link from "next/link";
 import { dummyBlogPostData } from "@/contants";
 import Layout from "@/components/Layout";
 import Subscribe from "@/components/Subscribe";
-import ContactSection from "@/components/ContactSection";
+import StartProject from "@/components/StartProject";
 
 export default function InnerBlogPage() {
   const router = useRouter();
@@ -162,7 +162,7 @@ export default function InnerBlogPage() {
             </div>
           </form>
         </div>
-        <ContactSection />
+        <StartProject />
         <Subscribe />
       </Layout>
     </div>
