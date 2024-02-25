@@ -31,7 +31,7 @@ export default function BlogPost() {
         <div className="ps-3">
           {dummyBlog.map((blog, i) => (
             <div
-              className={`rounded-md shadow-md p-4 ${
+              className={`rounded-md shadow-md p-4 mb-2 ${
                 i % 2 === 0 ? "bg-blue100" : "bg-white"
               }`}
               key={blog.id}

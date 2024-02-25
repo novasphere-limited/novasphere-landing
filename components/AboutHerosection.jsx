@@ -1,18 +1,29 @@
 import Image from "next/image";
 import Link from "next/link";
 import Button from "./Button";
+import LinkBtn from "./LinkBtn";
 
 export default function AboutHerosection() {
   return (
     <div className="main-container">
-      <h1 className="header-1_bold mb-3 text-center">
-        Experience the power to enjoy seemless
-        <span className="text-warning500 ps-1">Digital</span> solutions
-      </h1>
-      <h6 className="header-4_regular mb-3 text-center">
-        Transforming Your Online Presence for Success Transforming Your Online
-        Presence
-      </h6>
+      <div className="flex justify-center">
+        <h1
+          className="header-1_bold mb-3 text-center"
+          style={{ maxWidth: "711px" }}
+        >
+          Experience the power to enjoy seemless
+          <span className="text-warning500 ps-1">Digital</span> solutions
+        </h1>
+      </div>
+      <div className="flex justify-center">
+        <h6
+          className="label-2_regular mb-3 text-center"
+          style={{ maxWidth: "848px" }}
+        >
+          Transforming Your Online Presence for Success Transforming Your Online
+          Presence
+        </h6>
+      </div>
       <div className="relative">
         <div className="my-4">
           <Image
@@ -36,9 +47,10 @@ export default function AboutHerosection() {
             ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <Link href="/">
-            <Button btnText="Get started" />
-          </Link>
+
+          <div className="flex justify-center">
+            <LinkBtn href="#" text="Get Started" />
+          </div>
         </div>
       </div>
     </div>
