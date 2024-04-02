@@ -1,40 +1,9 @@
-// import Image from "next/image";
-
-// export default function Ceo() {
-//   return (
-//     <div className="main-container grid-2 items-center gap-5">
-//       <div className="w-full">
-//         <Image
-//           src="/asset/nova-about-hero.png"
-//           alt="Novasphere hero picture"
-//           width={704}
-//           height={630}
-//           className="rounded-md w-full"
-//         />
-//       </div>
-//       <div className="w-full">
-//         <h6 className="label-2_bold mb-2 text-center">Meet the CEO</h6>
-//         <p className="text-2_regular">
-//           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-//           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-//           minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur
-//           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-//           magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor
-//           sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-//           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-//           quis nostrud
-//         </p>
-//       </div>
-//     </div>
-//   );
-// }
-
 import Image from "next/image";
 
 export default function Ceo() {
   return (
-    <div className="main-container">
-      <div className="md:flex mt-5 gap-10 items-center">
+    <div className="main-container mt-[100px]">
+      <div className="md:flex mt-5 gap-10 items-center relative">
         <div className="w-full">
           <Image
             src="/asset/ce_o.jpg"
@@ -44,13 +13,24 @@ export default function Ceo() {
             className="rounded-lg"
           />
         </div>
-        <div className="w-full">
+        <div
+          className="rounded-md shadow-lg p-5 w-full ceo-abs pb-10"
+          style={{ background: "#fff" }}
+        >
           <h2 className="label-2_regular my-4">Meet the CEO</h2>
-          <p className="label-4_regular mb-1">
-            Williams Andrew is a Where Vision Meets Innovation. Your Partner in
-            Technology Evolution Transforming Ideas into Digital Realities,
-            Where Vision Meets Innovation. Your Partner in Technology Evolution
-            Transforming Ideas into Digital Realities,
+          <p className="text-base font-normal mb-1">
+            Ahmed,serves as the Co-Founder & CEO of Novasphere Technology
+            Solution Ltd. In his role, Ahmed not only leads the Executive
+            Leadership Team but also spearheads the company's overarching
+            direction and strategy.
+            <br /> <br /> Driven by a deep-seated passion for leveraging
+            technology to enhance customer experiences throughout Africa, Ahmed
+            is committed to ensuring that Novasphere stands at the forefront of
+            innovative solutions. With a keen focus on building impactful
+            technology solutions, Ahmed's leadership ensures that Novasphere
+            remains dedicated to its mission of positively transforming the
+            African market landscape through cutting-edge advancements in
+            customer service and technology.
           </p>
         </div>
       </div>

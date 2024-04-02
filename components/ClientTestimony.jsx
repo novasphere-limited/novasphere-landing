@@ -1,3 +1,4 @@
+import Image from "next/image";
 import TestimonySlider from "./ClientTestimonySlider";
 
 export default function ClientTestimony() {
@@ -5,61 +6,82 @@ export default function ClientTestimony() {
 
   return (
     <div className="main-container bg-[#5758EF08]">
-      <h2 className="header-2_bold mb-4 text-center">
-        What do our clients say about Us
+      <h2 className="text-3xl font-semibold mb-3">
+        Testimonials from our Clients
       </h2>
-      <div className="flex justify-center">
-        <h6
-          className="label-2_regular mb-4 text-center"
-          style={{ maxWidth: "914px" }}
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud
-        </h6>
-      </div>
+      <p className="text-2_regular mb-[66px]" style={{ maxWidth: "550px" }}>
+        Discover the Rich Tapestry of Shared Experiences from Our Community,
+        Where Satisfaction Echoes in Every Voice
+      </p>
       <div className="md:grid grid-cols-3 gap-4 hidden mb-5">
         <div className="rounded-lg p-5 bg-white">
-          <p className="text-2_regular mb-5 border-b-2 pb-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud Lorem ipsum dolor sitLorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud
+          <p className="text-2_regular mb-5 pb-2">
+            "We love Novasphere! Our designers were using it for their projects,
+            so we already knew what kind of design they want."
           </p>
-          <div
-            style={{ height: "38px", width: "38px" }}
-            className="rounded-full bg-[#D9D9D9]"
-          ></div>
+          <div className="flex items-center gap-4">
+            <div
+              style={{ height: "44px", width: "44px" }}
+              className="rounded-full bg-[#D9D9D9]"
+            >
+              <Image
+                src="/asset/nova-client-img.png"
+                alt="Testimonial person profile"
+                width={44}
+                height={44}
+              />
+            </div>
+            <div>
+              <h4 className="text-[#1F1F1F] font-semibold">Devon Lane</h4>
+              <p className="text-[#444444]">Co-Founder, Design.co</p>
+            </div>
+          </div>
         </div>
         <div className="rounded-lg p-5 bg-white">
-          <p className="text-2_regular mb-5  border-b-2 pb-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud Lorem ipsum dolor sitLorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud
+          <p className="text-2_regular mb-5 pb-2">
+            "We love Novasphere! Our designers were using it for their projects,
+            so we already knew what kind of design they want."
           </p>
-          <div
-            style={{ height: "38px", width: "38px" }}
-            className="rounded-full bg-[#D9D9D9]"
-          ></div>
+          <div className="flex items-center gap-4">
+            <div
+              style={{ height: "44px", width: "44px" }}
+              className="rounded-full bg-[#D9D9D9]"
+            >
+              <Image
+                src="/asset/nova-client-img.png"
+                alt="Testimonial person profile"
+                width={44}
+                height={44}
+              />
+            </div>
+            <div>
+              <h4 className="text-[#1F1F1F] mb-2 font-semibold">Devon Lane</h4>
+              <p className="text-[#444444]">Co-Founder, Design.co</p>
+            </div>
+          </div>
         </div>
         <div className="rounded-lg p-5 bg-white">
-          <p className="text-2_regular mb-5 border-b-2 pb-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud Lorem ipsum dolor sitLorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud
+          <p className="text-2_regular mb-5 pb-2">
+            "We love Novasphere! Our designers were using it for their projects,
+            so we already knew what kind of design they want."
           </p>
-          <div
-            style={{ height: "38px", width: "38px" }}
-            className="rounded-full bg-[#D9D9D9]"
-          ></div>
+          <div className="flex items-center gap-4">
+            <div
+              style={{ height: "44px", width: "44px" }}
+              className="rounded-full bg-[#D9D9D9]"
+            >
+              <Image
+                src="/asset/nova-client-img.png"
+                alt="Testimonial person profile"
+                width={44}
+                height={44}
+              />
+            </div>
+            <div>
+              <h4 className="text-[#1F1F1F] mb-2 font-semibold">Devon Lane</h4>
+              <p className="text-[#444444]">Co-Founder, Design.co</p>
+            </div>
+          </div>
         </div>
       </div>
       <div className="block md:hidden mb-5">

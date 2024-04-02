@@ -72,38 +72,46 @@ export const dummyBlog = [
 export const TodoList = [
   {
     id: 1,
-    header: "01 E-commerce Solutions",
+    icon: "/favicon_io/nova-desktop.svg",
+    header: "UI/UX",
     content:
       " Expand your online sales, streamline your customers’ shopping experience, set up online stores and optimise your checkout process.",
   },
   {
     id: 2,
-    header: "02 Digital Marketing Strategies",
+    icon: "/favicon_io/nova-direct.svg",
+    header: "Digital Marketing Strategies",
     content:
       "Tailored digital marketing strategies that drive online success. SEO and Content Marketing and social media campaigns.",
   },
   {
     id: 3,
-    header: "03 Web Development and Design",
+    icon: "/favicon_io/nova-browser-1.svg",
+    header: "Web Development and Design",
     content:
       "Your digital storefront. Get responsive, visually stunning, user-friendly websites that leave a lasting impression.",
   },
   {
     id: 4,
-    header: "04 Mobile App Development",
+    icon: "/favicon_io/nova-mobile.svg",
+    header: "Mobile App Development",
     content: "Game-changing innovative multi-platform mobile apps.",
   },
+];
+export const MissionList = [
   {
-    id: 5,
-    header: "05 Content Creation and Strategy",
+    id: 1,
+
+    header: "Vision",
     content:
-      "Compelling and engaging content that resonates with your target market to attract and retain your audience.",
+      "We envision a global community of forward-thinkers, united in their pursuit of ground-breaking solutions, making technology accessible, inclusive, and a force for positive change.",
   },
   {
-    id: 5,
-    header: "06 Data Analytics and Insights",
+    id: 2,
+
+    header: "Mission",
     content:
-      "Valuable insights into your online performance, allowing you to make data-driven choices for growth.",
+      "At Novasphere, our mission is to pioneer limitless technology solutions birthing diverse innovations that elevate possibilities through technology..",
   },
 ];
 
@@ -133,21 +141,20 @@ export const NavList = [
 export const TeamList = [
   {
     id: 2,
-    imgSrc: "/asset/team-2.png",
+    imgSrc: "/asset/nova-team-1.png",
     name: "Charles",
-    department: "Co-Founder/President",
+    department: "Chief Marketing Officer",
   },
   {
     id: 1,
-    imgSrc: "/asset/team-3.png",
-    name: "Ahmed",
-    department: "Account",
+    imgSrc: "/asset/nova-team-2.png",
+    name: "Faruq",
+    department: "CTO/Head Engineering",
   },
   {
     id: 3,
-    imgSrc: "/asset/team-1.png",
+    imgSrc: "/asset/nova-team-3.png",
     name: "Maryam",
-
     department: "Chief Product Officer",
   },
 ];

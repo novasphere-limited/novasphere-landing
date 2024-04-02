@@ -15,15 +15,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div
-        className={`navbar ${
-          router.pathname === "/service" ||
-          router.pathname === "/blog" ||
-          router.pathname === "/contact"
-            ? "bg-white"
-            : "bg-[#0EC9FC0A]"
-        } `}
-      >
+      <div className="navbar">
         <Link href="/">
           <Image
             src="/asset/nova_logo.png"
@@ -34,7 +26,7 @@ export default function Navbar() {
         </Link>
         <ul>
           {NavList.map((nav) => (
-            <Link key={nav.id} href={nav.route}>
+            <Link key={nav.id} href={nav.route} className="relative">
               <li
                 className={`label-3_medium ${
                   router.pathname === nav.route ? "active-link" : ""
@@ -42,15 +34,17 @@ export default function Navbar() {
               >
                 {nav.name}
               </li>
+              <div
+                className={`${
+                  router.pathname === nav.route ? "active-link_1" : ""
+                }`}
+              ></div>
             </Link>
           ))}
         </ul>
         <div>
           <Link href={ROUTES.CONTACT}>
-            <h1
-              className="label-2_medium navbar_outline"
-              style={{ backgroundColor: "#4158EF", color: "#ffffff" }}
-            >
+            <h1 className="label-2_medium navbar_outline bg-warning600 text-white">
               Contact Us
             </h1>
           </Link>
