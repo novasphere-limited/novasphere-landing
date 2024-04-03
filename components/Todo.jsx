@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Todo() {
   return (
     <div className="main-container">
-      <div className="ms-[2rem]">
+      <div className="lg:ms-[2rem] md:ms-[1.5rem] sm:ms-[1rem] ms-2">
         <div className="relative">
           <h2 className="text-3xl font-semibold mb-3">What we do?</h2>
           <div className="absolute top-[-1rem] left-[-1.5rem]">
@@ -24,14 +24,14 @@ export default function Todo() {
         </p>
       </div>
       <div
-        className="grid-2 rounded-[12px]"
+        className="grid-2 rounded-[12px] gap-y-2 sm:gap-y-3 md:gap-y-0"
         style={{ border: "2px solid #D3D3D3" }}
       >
         {TodoList.map((todo, index) => (
           <div
             className={`${
               index === 0 || index === 3 ? "bg-[#D9D9D9]" : "bg-[#0EC9FC05]"
-            }  lg:p-10 sm:p-5 flex flex-col`}
+            }  lg:p-10 md:p-6 sm:p-4 p-2 flex flex-col`}
             key={todo.id}
           >
             <div className="mb-[32px]">

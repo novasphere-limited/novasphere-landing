@@ -24,7 +24,9 @@ export default function Footer() {
         </div>
         <div className="w-full footer-flex_2">
           <div>
-            <h1 className="label-1_medium mb-4 text-warning600">Company</h1>
+            <h1 className="text-semibold text-[22px] mb-4 text-warning600">
+              Company
+            </h1>
 
             <Link href={ROUTES.ABOUT}>
               <p className="label-3_regular mb-2">About us</p>
@@ -37,7 +39,9 @@ export default function Footer() {
             </Link>
           </div>
           <div className="w-full">
-            <h1 className="label-1_medium mb-4 text-warning600">Services</h1>
+            <h1 className="text-semibold text-[22px] mb-4 text-warning600">
+              Services
+            </h1>
             <Link href="#">
               <p className="label-3_regular mb-2">UI/UX Design</p>
             </Link>
@@ -52,7 +56,9 @@ export default function Footer() {
             </Link>
           </div>
           <div>
-            <h1 className="label-1_medium mb-4 text-warning600">Legal</h1>
+            <h1 className="text-semibold text-[22px] mb-4 text-warning600">
+              Legal
+            </h1>
             <Link href="#">
               <p className="label-3_regular mb-2">Terms of services</p>
             </Link>

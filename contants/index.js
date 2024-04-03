@@ -158,3 +158,69 @@ export const TeamList = [
     department: "Chief Product Officer",
   },
 ];
+
+export const NewsList = [
+  {
+    id: 1,
+    imgSrc: "/asset/nova-news-1.png",
+    title: "ANNOUNCEMENTS",
+    header: "Product Updates: Informed Comp Conversations, Engagement.....",
+    text: "Discover Lattice's newest updates - enabling you to make the most of your people data, optimize compensation cycles....",
+  },
+  {
+    id: 2,
+    imgSrc: "/asset/nova-news-2.png",
+    title: "ANNOUNCEMENTS",
+    header: "Product Updates: Informed Comp Conversations, Engagement.....",
+    text: "Discover Lattice's newest updates - enabling you to make the most of your people data, optimize compensation cycles....",
+  },
+  {
+    id: 3,
+    imgSrc: "/asset/nova-news-3.png",
+    title: "ANNOUNCEMENTS",
+    header: "Product Updates: Informed Comp Conversations, Engagement.....",
+    text: "Discover Lattice's newest updates - enabling you to make the most of your people data, optimize compensation cycles....",
+  },
+  {
+    id: 4,
+    imgSrc: "/asset/nova-news-4.png",
+    title: "ANNOUNCEMENTS",
+    header: "Product Updates: Informed Comp Conversations, Engagement.....",
+    text: "Discover Lattice's newest updates - enabling you to make the most of your people data, optimize compensation cycles....",
+  },
+  {
+    id: 5,
+    imgSrc: "/asset/nova-news-5.png",
+    title: "ANNOUNCEMENTS",
+    header: "Product Updates: Informed Comp Conversations, Engagement.....",
+    text: "Discover Lattice's newest updates - enabling you to make the most of your people data, optimize compensation cycles....",
+  },
+  {
+    id: 6,
+    imgSrc: "/asset/nova-new-6.png",
+    title: "ANNOUNCEMENTS",
+    header: "Product Updates: Informed Comp Conversations, Engagement.....",
+    text: "Discover Lattice's newest updates - enabling you to make the most of your people data, optimize compensation cycles....",
+  },
+  {
+    id: 7,
+    imgSrc: "/asset/nova-new-7.png",
+    title: "ANNOUNCEMENTS",
+    header: "Product Updates: Informed Comp Conversations, Engagement.....",
+    text: "Discover Lattice's newest updates - enabling you to make the most of your people data, optimize compensation cycles....",
+  },
+  {
+    id: 8,
+    imgSrc: "/asset/nova-new-8.png",
+    title: "ANNOUNCEMENTS",
+    header: "Product Updates: Informed Comp Conversations, Engagement.....",
+    text: "Discover Lattice's newest updates - enabling you to make the most of your people data, optimize compensation cycles....",
+  },
+  {
+    id: 9,
+    imgSrc: "/asset/nova-new-9.png",
+    title: "ANNOUNCEMENTS",
+    header: "Product Updates: Informed Comp Conversations, Engagement.....",
+    text: "Discover Lattice's newest updates - enabling you to make the most of your people data, optimize compensation cycles....",
+  },
+];

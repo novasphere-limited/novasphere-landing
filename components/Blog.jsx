@@ -1,13 +1,41 @@
+import Image from "next/image";
+
 export default function Blog() {
   return (
-    <div style={{ background: "#FBE8CE33", zIndex: "2" }}>
-      <div className="blog-bg_image h-screen w-full flex items-center">
+    <div>
+      <div className="blog-bg_image">
         <div className="main-container">
-          <h1 className="header-1_bold mb-3">Blog</h1>
-          <p className="label-2_regular">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+          <h1 className="font-semibold text-[48px] mb-4 text-center">
+            <span className="text-warning600">Novasphere</span> Newsroom
+          </h1>
+          <div className="flex justify-center">
+            <p className="text-normal text-[22px] text-center w-[400px] mb-[42px]">
+              The latest news, announcements from Novasphere
+            </p>
+          </div>
+          <div className="flex justify-center">
+            <div
+              className="px-2 py-1 flex items-center rounded-md "
+              style={{ border: "1px solid #B4B4B4", maxWidth: "322px" }}
+            >
+              <div>
+                <Image
+                  height={20}
+                  width={20}
+                  alt="Search icon"
+                  src="/favicon_io/nova-search-normal.svg"
+                  className="me-2"
+                />
+              </div>
+              <form className="w-full">
+                <input
+                  type="text"
+                  placeholder="Search..."
+                  className="border-none w-full bg-transparent"
+                />
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -23,17 +23,28 @@ export default function TestimonySlider({ ArrayList }) {
               >
                 <div className="rounded-lg p-5 bg-white w-full">
                   <p className="text-2_regular mb-5  border-b-2 pb-2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum
-                    dolor sitLorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    "We love Novasphere! Our designers were using it for their
+                    projects, so we already knew what kind of design they want."
                   </p>
-                  <div
-                    style={{ height: "38px", width: "38px" }}
-                    className="rounded-full bg-[#D9D9D9]"
-                  ></div>
+                  <div className="flex items-center gap-4">
+                    <div
+                      style={{ height: "44px", width: "44px" }}
+                      className="rounded-full bg-[#D9D9D9]"
+                    >
+                      <Image
+                        src="/asset/nova-client-img.png"
+                        alt="Testimonial person profile"
+                        width={44}
+                        height={44}
+                      />
+                    </div>
+                    <div>
+                      <h4 className="text-[#1F1F1F] mb-2 font-semibold">
+                        Devon Lane
+                      </h4>
+                      <p className="text-[#444444]">Co-Founder, Design.co</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             ))}

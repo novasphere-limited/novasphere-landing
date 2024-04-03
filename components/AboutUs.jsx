@@ -20,8 +20,10 @@ export default function AboutUs() {
           className="rounded-md shadow-lg p-5 about-abs pb-10"
           style={{ background: "#fff" }}
         >
-          <h5 className="header-3_bold mb-3 text-warning600">About Us</h5>
-          <p className="text-1_regular">
+          <h5 className="text-3xl font-semibold mb-3 text-warning600">
+            About Us
+          </h5>
+          <p className="text-base">
             At Novasphere, we are passionate about harnessing the power of
             technology to propel businesses forward. As a company we specialize
             in software development, mobile app development, UI/UX design, and

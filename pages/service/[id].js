@@ -11,7 +11,7 @@ export default function InnerServicePage() {
   const { id } = router.query;
 
   return (
-    <>
+    <div className="bg-[#e2e2e2]">
       <Layout>
         <div className="main-container">
           <div className="text-center">
@@ -63,6 +63,6 @@ export default function InnerServicePage() {
         <StartProject />
         <Subscribe />
       </Layout>
-    </>
+    </div>
   );
 }

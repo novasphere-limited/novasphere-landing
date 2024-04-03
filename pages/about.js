@@ -10,7 +10,7 @@ import Team from "@/components/Team";
 
 export default function About() {
   return (
-    <div>
+    <div className="bg-[#e2e2e2]">
       <Layout>
         <div className="bg-image abs-margin">
           <AboutHerosection />

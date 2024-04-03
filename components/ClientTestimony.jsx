@@ -5,7 +5,7 @@ export default function ClientTestimony() {
   const Arraylist = [{ id: 1 }, { id: 2 }, { id: 3 }];
 
   return (
-    <div className="main-container bg-[#5758EF08]">
+    <div className="main-container bg-[#5758EF08] mt-[114px] lg:mt-0">
       <h2 className="text-3xl font-semibold mb-3">
         Testimonials from our Clients
       </h2>
@@ -13,7 +13,7 @@ export default function ClientTestimony() {
         Discover the Rich Tapestry of Shared Experiences from Our Community,
         Where Satisfaction Echoes in Every Voice
       </p>
-      <div className="md:grid grid-cols-3 gap-4 hidden mb-5">
+      <div className="lg:grid grid-cols-3 gap-4 hidden mb-5">
         <div className="rounded-lg p-5 bg-white">
           <p className="text-2_regular mb-5 pb-2">
             "We love Novasphere! Our designers were using it for their projects,
@@ -84,7 +84,7 @@ export default function ClientTestimony() {
           </div>
         </div>
       </div>
-      <div className="block md:hidden mb-5">
+      <div className="block lg:hidden mb-5">
         <TestimonySlider ArrayList={Arraylist} />
       </div>
     </div>

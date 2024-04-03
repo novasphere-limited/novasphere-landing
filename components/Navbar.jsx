@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="navbar">
+      <div className="navbar bg-[#ECF3F54D]">
         <Link href="/">
           <Image
             src="/asset/nova_logo.png"

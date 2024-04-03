@@ -1,18 +1,18 @@
 import Blog from "@/components/Blog";
-import BlogPost from "@/components/BlogPost";
-import LatestBlogPost from "@/components/LatestBlogPost";
+import BlogSlide from "@/components/BlogSlider";
+import Demo from "@/components/Demo";
 import Layout from "@/components/Layout";
-import StartProject from "@/components/StartProject";
+import News from "@/components/News";
 import Subscribe from "@/components/Subscribe";
 
 export default function BlogPage() {
   return (
-    <div>
+    <div className="bg-[#e2e2e2]">
       <Layout>
         <Blog />
-        <BlogPost />
-        <LatestBlogPost />
-        <StartProject />
+        <BlogSlide />
+        <News />
+        <Demo />
         <Subscribe />
       </Layout>
     </div>

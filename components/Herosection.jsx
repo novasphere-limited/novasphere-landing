@@ -5,7 +5,7 @@ import LinkBtn from "./LinkBtn";
 
 export default function HeroSection() {
   return (
-    <div className="text-center bg-image">
+    <div className="text-center bg-image mb-[134px]">
       <div>
         <div className="flex justify-center">
           <h1 className="header-1_bold mb-3" style={{ maxWidth: "1038px" }}>
@@ -15,7 +15,10 @@ export default function HeroSection() {
           </h1>
         </div>
         <div className="flex justify-center">
-          <h6 className="text-xl font-normal" style={{ maxWidth: "639px" }}>
+          <h6
+            className="lg:text-xl sm:text-base text-sm font-normal m-2 sm:m-4"
+            style={{ maxWidth: "639px" }}
+          >
             Discover the power of innovation with Novasphere where cutting-edge
             technology meets tailored software solutions.
           </h6>

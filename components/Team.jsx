@@ -4,7 +4,7 @@ import Counter from "./Counter";
 
 export default function Team() {
   return (
-    <div className="main-container text-center mx-[100px]">
+    <div className="main-container text-center xl:mx-[100px] lg:mx-[75px] md:mx-[50px] sm:mx-[25px] mx-3">
       <h1 className="text-2xl font-bold mb-4 text-center margin-extra text-warning700">
         Meet the Team
       </h1>
@@ -20,7 +20,9 @@ export default function Team() {
         {TeamList.map((team, index) => (
           <div
             className={`${
-              index === 0 || index === 2 ? "mt-[40px]" : "mb-[40px]"
+              index === 0 || index === 2
+                ? "sm:mt-[40px] mt-[15px]"
+                : "sm:mb-[40px] mb-0"
             } flex items-center flex-col relative`}
             key={team.id}
           >

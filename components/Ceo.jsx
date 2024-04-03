@@ -17,7 +17,7 @@ export default function Ceo() {
           className="rounded-md shadow-lg p-5 w-full ceo-abs pb-10"
           style={{ background: "#fff" }}
         >
-          <h2 className="label-2_regular my-4">Meet the CEO</h2>
+          <h2 className="text-3xl my-4">Meet the CEO</h2>
           <p className="text-base font-normal mb-1">
             Ahmed,serves as the Co-Founder & CEO of Novasphere Technology
             Solution Ltd. In his role, Ahmed not only leads the Executive

@@ -5,12 +5,10 @@ import Subscribe from "@/components/Subscribe";
 
 export default function Service() {
   return (
-    <div>
+    <div className="bg-[#e2e2e2]">
       <Layout>
-        <div className="main-container">
-          <ServiceHeroSection />
-          <StartProject />
-        </div>
+        <ServiceHeroSection />
+        <StartProject />
         <Subscribe />
       </Layout>
     </div>

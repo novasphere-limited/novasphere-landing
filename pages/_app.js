@@ -2,7 +2,6 @@ import "@/styles/globals.css";
 import { Provider } from "react-redux";
 import { wrapper } from "../store/";
 import Link from "next/link";
-
 import PropTypes from "prop-types";
 import Head from "next/head";
 import { ThemeProvider } from "@mui/material/styles";

@@ -6,7 +6,7 @@ export default function ServiceHeroSection() {
     <>
       <div className="text-center">
         <div className="flex justify-center">
-          <h1 className="header-1_bold mb-3" style={{ maxWidth: "555px" }}>
+          <h1 className="text-[3rem] mb-3 w-[555px] font-semibold">
             We give the perfect
             <span className="text-warning500 ps-2">Solution</span> to your
             Business.

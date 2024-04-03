@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function OurWork() {
   return (
     <>
-      <div className="main-container mt-[100px] mx-[68px]">
+      <div className="main-container mt-[100px] xl:mx-[68px] lg:mx-[48px] md:mx-[36px] sm:mx-[18px] mx-2">
         <div className="flex justify-center">
           <h2 className="text-3xl font-semibold mb-[64px] text-center relative">
             Our Work
@@ -19,7 +19,7 @@ export default function OurWork() {
           </h2>
         </div>
 
-        <div className="grid-2_diff2 items-center bg-white rounded-[20px] ps-[54px] gap-[87px] pe-[32px] py-[36px]">
+        <div className="grid-2_diff2 items-center bg-white rounded-[20px] xl:ps-[54px] gap-[87px] xl:pe-[32px] py-[36px] lg:ps-[40px] lg:pe-[24px] md:ps-[28px] md:pe-[14px] sm:ps-[14px] sm:pe-[8px] px-[8px]">
           <div className="w-full">
             <div className="mb-[55px]">
               <Image
@@ -51,7 +51,7 @@ export default function OurWork() {
               </div>
             </Link>
           </div>
-          <div className="w-full flex justify-end">
+          <div className="w-full flex lg:justify-end justify-center">
             <Image
               src="/asset/nova-agric.png"
               alt="Work image"
