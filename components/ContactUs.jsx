@@ -3,7 +3,7 @@ import Button from "./Button";
 
 export default function ContactUs() {
   return (
-    <div className="main-container md:flex gap-10 items-center">
+    <div className="main-container md:flex justify-between items-center">
       <div className="w-full">
         <h1 className="font-normal text-[32px]">Hello,</h1>
         <p className="font-base mb-5">
@@ -33,13 +33,13 @@ export default function ContactUs() {
           </div>
         </form>
       </div>
-      <div className="w-full ">
+      <div className="w-full flex md:justify-end justify-center">
         <Image
-          src="/asset/nova-contact_img.png"
+          src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712341553/F690BF8D-E4DF-4E59-BDA1-2D89003BC9D6_nj0qr1.png"
           alt="Novasphere contact picture"
           width={593}
           height={632}
-          className="w-full rounded-[20px]"
+          className="rounded-[20px]"
         />
       </div>
     </div>

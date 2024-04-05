@@ -1,7 +1,16 @@
 import { TodoList } from "@/contants";
 import Image from "next/image";
+import ModalComponent from "./Modal";
+import ModalContent from "./ModalContent";
+import { useState } from "react";
 
 export default function Todo() {
+  const [modal, setModal] = useState(false);
+  const [modalObj, setModalObj] = useState({});
+  const handleModal = (obj) => {
+    setModal(true);
+    setModalObj(obj);
+  };
   return (
     <div className="main-container">
       <div className="lg:ms-[2rem] md:ms-[1.5rem] sm:ms-[1rem] ms-2">
@@ -51,7 +60,10 @@ export default function Todo() {
             </div>
             <p className="text-2_regular mb-5">{todo.content}</p>
 
-            <button className="text-2_bold flex gap-2 items-center mt-auto">
+            <button
+              className="text-2_bold flex gap-2 items-center mt-auto"
+              onClick={() => handleModal(todo)}
+            >
               <p className="text-warning500 font-medium text-base">Read More</p>
               <Image
                 src="/favicon_io/arrow_up-purp.svg"
@@ -63,6 +75,9 @@ export default function Todo() {
           </div>
         ))}
       </div>
+      <ModalComponent modal={modal} setModal={setModal}>
+        <ModalContent modalObj={modalObj} />
+      </ModalComponent>
     </div>
   );
 }

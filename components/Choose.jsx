@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Choose() {
   return (
-    <div className="main-container mt-[100px] xl:mx-[120px] lg:mx-[70px] md:mx-[35px] sm:mx-[20px] mx-3">
+    <div className="main-container margin-spec xl:mx-[120px] lg:mx-[70px] md:mx-[35px] sm:mx-[20px] mx-3">
       <h2 className="font-semibold text-3xl text-center mb-4">Why Choose Us</h2>
       <div className="flex justify-center">
         <h6 className="text-base font-normal mb-5 text-center md:w-[600px]">
@@ -13,7 +13,7 @@ export default function Choose() {
       <div className="grid-2_diff1 items-center mb-[100px]">
         <div className="w-full">
           <Image
-            src="/asset/nova-choose-1.png"
+            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712330379/8647F695-09BF-4D97-9E74-979B9DEFC6D7_zdv7qh.png"
             alt="Choose image"
             width={541}
             height={330}
@@ -47,7 +47,7 @@ export default function Choose() {
         </div>
         <div>
           <Image
-            src="/asset/nova-choose-2.png"
+            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712330367/3D25A4FF-19F4-4CE8-A532-4CC534F8CFC6_cqhzwa.png"
             alt="Choose image"
             width={541}
             height={330}
@@ -58,7 +58,7 @@ export default function Choose() {
       <div className="grid-2_diff1 items-center">
         <div>
           <Image
-            src="/asset/nova-choose-3.png"
+            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712331658/D0B104C7-ABA1-49FF-8FF1-706020FB6D50_c0fdfc.png"
             alt="Choose image"
             width={541}
             height={330}

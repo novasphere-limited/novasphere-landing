@@ -28,11 +28,11 @@ export default function HeroSection() {
       <div className="relative">
         <div className="flex justify-center my-4 landing-img_bg">
           <Image
-            src="/asset/nova-hero-img.png"
+            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712331407/6E11328D-8F76-48CF-AA46-AD9C6A58F002_airfcu.png"
             alt="Novasphere hero picture"
             width={1223}
             height={684}
-            className="rounded-lg"
+            className="rounded-lg h-[684px]"
           />
         </div>
         <div className="absolute top-[4rem] left-0">

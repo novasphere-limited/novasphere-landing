@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 const Counter = ({ endValue1, endValue2, endValue3 }) => {
   return (
     <div className="text-center">
-      <h4 className="text-3xl font-semibold mb-[64px] mt-[100px]">
+      <h4 className="text-3xl font-semibold mb-[64px] margin-spec">
         Join our Community
       </h4>
       <div className="flex justify-center">

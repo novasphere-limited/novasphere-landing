@@ -18,6 +18,9 @@ const nextConfig = {
       transform: "@mui/lab/{{member}}",
     },
   },
+  images: {
+    remotePatterns: [{ hostname: "res.cloudinary.com" }],
+  },
 };
 
-module.exports = nextConfig
+module.exports = nextConfig;

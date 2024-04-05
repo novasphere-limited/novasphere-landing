@@ -3,7 +3,7 @@ import { MissionList } from "@/contants";
 export default function Mission() {
   return (
     <div>
-      <div className="flex justify-center text-center main-container mt-[100px]">
+      <div className="flex justify-center text-center main-container margin-spec">
         <div
           className="grid-2 rounded-[12px]"
           style={{ border: "2px solid #D3D3D3" }}
@@ -12,7 +12,7 @@ export default function Mission() {
             <div
               className={`${
                 index === 0 ? "bg-[#D9D9D9]" : "bg-[#0EC9FC05]"
-              } px-[84px] py-[54px] flex flex-col`}
+              } xl:px-[84px] px-3 sm:px-6 md:px-10 lg:px-[62px] py-3 sm:py-5 md:py-[28px] lg:py-[40px] xl:py-[54px] flex flex-col`}
               key={todo.id}
             >
               <div className="flex pe-[3px] relative justify-center">

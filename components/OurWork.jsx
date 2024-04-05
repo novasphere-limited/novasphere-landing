@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function OurWork() {
   return (
     <>
-      <div className="main-container mt-[100px] xl:mx-[68px] lg:mx-[48px] md:mx-[36px] sm:mx-[18px] mx-2">
+      <div className="main-container margin-spec xl:mx-[68px] lg:mx-[48px] md:mx-[36px] sm:mx-[18px] mx-2">
         <div className="flex justify-center">
           <h2 className="text-3xl font-semibold mb-[64px] text-center relative">
             Our Work
@@ -53,7 +53,7 @@ export default function OurWork() {
           </div>
           <div className="w-full flex lg:justify-end justify-center">
             <Image
-              src="/asset/nova-agric.png"
+              src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712330369/4CA11323-1BB1-4865-8CD4-D4A59C240BF6_ojhhpe.png"
               alt="Work image"
               width={416}
               height={550}

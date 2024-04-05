@@ -20,14 +20,13 @@ export default function Footer() {
           <h6 className="label-3_regular">
             4a Gbade Adeleke Street , Unity Estate , Lagos State
           </h6>
-          <p className="label-3_regular">support@payyME.com</p>
+          <p className="label-3_regular">hello@novasphereltd.com</p>
         </div>
         <div className="w-full footer-flex_2">
           <div>
             <h1 className="text-semibold text-[22px] mb-4 text-warning600">
               Company
             </h1>
-
             <Link href={ROUTES.ABOUT}>
               <p className="label-3_regular mb-2">About us</p>
             </Link>
@@ -78,7 +77,7 @@ export default function Footer() {
         >
           c
         </span>
-        2023 PayME-All Right Reserved
+        2023 PayyMe-All Right Reserved
       </p>
     </div>
   );

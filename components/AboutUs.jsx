@@ -1,15 +1,12 @@
 import Image from "next/image";
-import Link from "next/link";
-import Button from "./Button";
-import LinkBtn from "./LinkBtn";
 
 export default function AboutUs() {
   return (
-    <div className="main-container mt-[100px]">
+    <div className="main-container margin-spec">
       <div className="relative">
         <div className="my-4 flex justify-end">
           <Image
-            src="/asset/nova-about-img.png"
+            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712331997/5964BA6D-861F-4229-A4AE-E06EA4226436_lvdony.png"
             alt="Novasphere hero picture"
             width={781}
             height={590}

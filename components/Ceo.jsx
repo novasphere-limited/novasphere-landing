@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Ceo() {
   return (
-    <div className="main-container mt-[100px]">
+    <div className="main-container margin-spec xl:mx-[120px] lg:mx-[70px] md:mx-[35px] sm:mx-[20px] mx-3">
       <div className="md:flex mt-5 gap-10 items-center relative">
         <div className="w-full">
           <Image
-            src="/asset/ce_o.jpg"
+            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712331990/92979534-4F9D-44C4-89A3-48DAE004875B_in5ija.png"
             alt="Info picture"
-            width={703}
-            height={470}
+            width={453}
+            height={455}
             className="rounded-lg"
           />
         </div>

@@ -3,12 +3,12 @@ import Image from "next/image";
 
 export default function News() {
   return (
-    <div className="main-container mx-[100px]">
+    <div className="main-container xl:mx-[100px] lg:mx-[70px] md:mx-[35px] sm:mx-[20px] mx-3">
       <div className="relative">
         <h2 className="font-semibold text-3xl mb-[22px] z-50">
           News at Novasphere
         </h2>
-        <div className="w-[124px] h-[12px] absolute bottom-[4px] left-0 bg-[#BADAFD] "></div>
+        <div className="w-[124px] h-[12px] absolute bottom-[-3px] left-0 bg-[#BADAFD] "></div>
       </div>
       <div
         className="grid grid-cols-1 justify-between mb-4 sm:grid-cols-2 lg:grid-cols-3"

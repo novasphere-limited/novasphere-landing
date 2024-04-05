@@ -5,7 +5,7 @@ export default function ClientTestimony() {
   const Arraylist = [{ id: 1 }, { id: 2 }, { id: 3 }];
 
   return (
-    <div className="main-container bg-[#5758EF08] mt-[114px] lg:mt-0">
+    <div className="main-container bg-[#5758EF08] margin-spec lg:mt-0">
       <h2 className="text-3xl font-semibold mb-3">
         Testimonials from our Clients
       </h2>
