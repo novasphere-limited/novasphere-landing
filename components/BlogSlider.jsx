@@ -43,14 +43,14 @@ export default function BlogSlide() {
         <h3 className="text-3xl font-semibold mb-[42px]">
           Recent news at Novasphere
         </h3>
-        <div className="flex bg-white rounded-lg justify-center">
-          <div>
+        <div className="md:flex bg-white rounded-lg justify-center">
+          <div className="flex justify-center">
             <Image
               alt="Nova slider image"
               src="/asset/nova-slide-img.png"
               width={473}
               height={332}
-              className="w-[473px] h-[332px]"
+              className="w-full h-[332px]"
             />
           </div>
           <div className="rounded-lg p-5 w-full py-6">

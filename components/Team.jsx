@@ -17,43 +17,35 @@ export default function Team() {
           Bringing Passion and Expertise together
         </h3>
       </div>
-      <AnimatedInView
-        threshold={0.5}
-        overflowHidden
-        variants={{
-          initial: { opacity: 0, x: -50, y: -50 },
-          animate: { opacity: 1, x: 0, y: 0 },
-          transition: { duration: 0.8 },
-        }}
-      >
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 grid-cols-1 justify-between team-margin">
-          {TeamList.map((team, index) => (
-            <div
-              className={`${
-                index === 0 || index === 2
-                  ? "sm:mt-[40px] mt-[15px]"
-                  : "sm:mb-[40px] mb-0"
-              } flex items-center flex-col relative ${
-                index === 2 ? "sm:mx-auto left-0 right-0" : ""
-              }`}
-              key={team.id}
-            >
-              <div className="flex items-center mb-4 justify-center">
-                <Image
-                  alt={team.name}
-                  src={team.imgSrc}
-                  width={300}
-                  height={540}
-                />
-              </div>
-              <div className="absolute bottom-4 text-white bg-black bg-opacity-20 backdrop-blur-[4px] px-auto w-[300px]">
-                <h4 className="font-normal text-[28px] mb-2">{team.name}</h4>
-                <p className="font-normal text-base mb-2">{team.department}</p>
-              </div>
+
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 grid-cols-1 justify-between team-margin">
+        {TeamList.map((team, index) => (
+          <div
+            className={`${
+              index === 0 || index === 2
+                ? "sm:mt-[40px] mt-[15px]"
+                : "sm:mb-[40px] mb-0"
+            } flex items-center flex-col relative ${
+              index === 2 ? "sm:mx-auto left-0 right-0" : ""
+            }`}
+            key={team.id}
+          >
+            <div className="flex items-center mb-4 justify-center">
+              <Image
+                alt={team.name}
+                src={team.imgSrc}
+                width={300}
+                height={540}
+              />
             </div>
-          ))}
-        </div>
-      </AnimatedInView>
+            <div className="absolute bottom-4 text-white bg-black bg-opacity-20 backdrop-blur-[4px] px-auto w-[300px]">
+              <h4 className="font-normal text-[28px] mb-2">{team.name}</h4>
+              <p className="font-normal text-base mb-2">{team.department}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
       <Counter endValue1={100} endValue2={150} endValue3={30} />
     </div>
   );
