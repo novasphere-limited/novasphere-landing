@@ -5,7 +5,7 @@ export default function Blog() {
     <div>
       <div className="blog-bg_image">
         <div className="main-container">
-          <h1 className="font-semibold text-[48px] mb-4 text-center">
+          <h1 className="font-semibold xl:text-[48px] lg:text-[44px] text-[36px] mb-4 text-center">
             <span className="text-warning600">Novasphere</span> Newsroom
           </h1>
           <div className="flex justify-center">

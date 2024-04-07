@@ -11,6 +11,12 @@
   font-family: "Manrope", sans-serif;
 }
 
+#__next img,
+#__next video {
+  max-width: none !important; /* Override max-width */
+  height: auto !important; /* Override height */
+}
+
 body {
   background-color: #e2e2e2;
 }
@@ -350,7 +356,7 @@ p {
   gap: 3rem;
 }
 .navbar_outline {
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   border-radius: 8px;
 }
 .main-container {
@@ -372,11 +378,13 @@ p {
   transform: translateY(-50%);
   max-width: 619px;
 }
+
 .ceo-abs {
   position: absolute;
-  bottom: 0;
-  right: 7%;
-  max-width: 619px;
+  bottom: 7%;
+  right: 8%;
+  max-width: 702px;
+  transform: translate(0%, 0%);
 }
 .help-container {
   text-align: center;
@@ -452,6 +460,8 @@ p {
   padding: 8px;
   border-radius: 50%;
   border: 2px solid;
+  height: 36px;
+  width: 36px;
 }
 
 .page-center {
@@ -501,7 +511,7 @@ p {
   background-position: center;
 }
 .bg-about-img {
-  background-image: url("/asset/nova-about-hero-img.png");
+  background-image: url("https://res.cloudinary.com/dstqfrcxx/image/upload/v1712331999/F57F6C1C-2575-48D7-9893-14E0DE6B959E_btyhaw.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -555,11 +565,71 @@ p {
 }
 .abs-spec-1 {
   position: absolute;
-  bottom: 15%;
-  left: 10%;
-  transform: translate(-10%, -20%);
+  bottom: 0%;
+  left: 60%;
+  transform: translate(-50%, 50%);
 }
+.abs-spec-2 {
+  display: hidden;
+}
+
+.margin-spec {
+  margin-top: 114px;
+}
+
+.team-margin {
+  margin: 0px 150px;
+}
+.ceo-abs-1 {
+  display: none;
+}
+
+.grid-inner_blog {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}
+
+@media (max-width: 1380px) {
+  .bg-about-img {
+    background-image: none;
+  }
+  .team-margin {
+    margin: 0px 90px;
+  }
+  .about-abs {
+    transform: translateY(-30%);
+    max-width: 619px;
+  }
+  .ceo-abs {
+    display: none;
+  }
+  .ceo-abs-1 {
+    display: block;
+    max-width: 902px;
+    position: absolute;
+    bottom: -40%;
+    right: 10%;
+  }
+  .ceo-margin {
+    margin-bottom: 130px;
+  }
+}
+
 @media (max-width: 1180px) {
+  .ceo-margin {
+    margin-bottom: 160px;
+  }
+  .about-abs {
+    transform: translateY(-10%);
+    max-width: 619px;
+  }
+
+  .team-margin {
+    margin: 0px 10px;
+  }
+  .margin-spec {
+    margin-top: 94px;
+  }
   .btn-primary_bg {
     background: #35b181 !important;
     color: #fefcfc;
@@ -911,7 +981,16 @@ p {
     background-image: none;
   }
 }
+
 @media (max-width: 1000px) {
+  .about-abs {
+    left: 1%;
+    transform: translateY(20%);
+    max-width: 819px;
+  }
+  .margin-spec {
+    margin-top: 84px;
+  }
   .btn-primary_bg {
     background: #35b181 !important;
     color: #fefcfc;
@@ -1259,6 +1338,32 @@ p {
 }
 
 @media (max-width: 900px) {
+  .grid-inner_blog {
+    grid-template-columns: 1fr;
+  }
+  .ceo-margin {
+    margin-bottom: 170px;
+  }
+  .about-abs {
+    transform: translateY(30%);
+    max-width: 819px;
+  }
+  .abs-spec-1 {
+    display: none !important;
+  }
+  .abs-spec {
+    left: 45%;
+  }
+  .abs-spec-2 {
+    display: block !important;
+    position: absolute;
+    bottom: 50%;
+    left: 57%;
+    transform: translate(-60%, 400%);
+  }
+  .margin-spec {
+    margin-top: 74px;
+  }
   .contact-container {
     display: block;
   }
@@ -1301,6 +1406,16 @@ p {
 }
 
 @media (max-width: 800px) {
+  .ceo-margin {
+    margin-bottom: 250px;
+  }
+  .about-abs {
+    transform: translateY(40%);
+    max-width: 819px;
+  }
+  .margin-spec {
+    margin-top: 64px;
+  }
   .btn-primary_bg {
     background: #35b181 !important;
     color: #fefcfc;
@@ -1641,7 +1756,27 @@ p {
   }
 }
 
+@media (max-width: 710px) {
+  .about-abs {
+    transform: translateY(50%);
+    max-width: 819px;
+  }
+  .abs-spec-2 {
+    bottom: 50%;
+    left: 57%;
+    transform: translate(-60%, 300%);
+  }
+}
+
 @media (max-width: 700px) {
+  .ceo-abs {
+    bottom: -40%;
+    right: 7%;
+    max-width: 902px;
+  }
+  .margin-spec {
+    margin-top: 54px;
+  }
   .testimony-abs {
     bottom: -70px;
     right: 1%;
@@ -1670,6 +1805,9 @@ p {
 @media (max-width: 550px) {
 }
 @media (max-width: 500px) {
+  .margin-spec {
+    margin-top: 34px;
+  }
   .main-container {
     padding: 0.5rem 0.5rem;
   }
@@ -1701,8 +1839,14 @@ p {
     transform: translate(0%, -50%);
   }
   .abs-spec-1 {
-    bottom: 15%;
-    left: 0%;
-    transform: translate(0%, -20%);
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+  .ceo-abs {
+    bottom: -50%;
+    right: 7%;
+    max-width: 619px;
   }
 }

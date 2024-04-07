@@ -71,22 +71,21 @@ export default function Navbar() {
         </div>
         {showNavbar && (
           <ul>
-            <Link href={ROUTES.HOME}>
-              <li className="label-3_medium mb-2">Home</li>
-            </Link>
-            <Link href={ROUTES.ABOUT}>
-              <li className="label-3_medium mb-2">About</li>
-            </Link>
-            <Link href={ROUTES.SERVICE}>
-              <li className="label-3_medium mb-2">Services</li>
-            </Link>
-            <Link href={ROUTES.BLOG}>
-              <li className="label-3_medium mb-2">Blog</li>
-            </Link>
+            {NavList.map((nav) => (
+              <Link key={nav.id} href={nav.route} className="relative">
+                <li
+                  className={`label-3_medium mb-2 ${
+                    router.pathname === nav.route ? "active-link" : ""
+                  }`}
+                >
+                  {nav.name}
+                </li>
+              </Link>
+            ))}
             <Link href={ROUTES.CONTACT}>
-              <li className="label-3_medium mb-2" style={{ color: "#075134" }}>
+              <h1 className="label-3_medium navbar_outline bg-warning600 text-white w-1/2">
                 Contact Us
-              </li>
+              </h1>
             </Link>
           </ul>
         )}
