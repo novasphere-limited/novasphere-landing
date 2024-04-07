@@ -102,33 +102,33 @@ export default function InnerBlog() {
             <div className="text-[#696969] mb-[62px]">
               <p>
                 In the fast-paced world of technology, staying abreast of the
-                latest trends and developments is not just an option; it's a
-                necessity. From ground-breaking innovations to transformative
+                latest trends and developments is not just an option; it&apos;s
+                a necessity. From ground-breaking innovations to transformative
                 disruptions, the tech industry continues to reshape our lives,
                 economies, and societies at an unprecedented pace. In this
-                article, we'll delve into the dynamic realm of technology,
+                article, we&apos;ll delve into the dynamic realm of technology,
                 exploring its current landscape and the key trends shaping its
                 future trajectory.
               </p>
               <br />
               <p>
                 In the fast-paced world of technology, staying abreast of the
-                latest trends and developments is not just an option; it's a
-                necessity. From ground-breaking innovations to transformative
+                latest trends and developments is not just an option; it&apos;s
+                a necessity. From ground-breaking innovations to transformative
                 disruptions, the tech industry continues to reshape our lives,
                 economies, and societies at an unprecedented pace. In this
-                article, we'll delve into the dynamic realm of technology,
+                article, we&apos;ll delve into the dynamic realm of technology,
                 exploring its current landscape and the key trends shaping its
                 future trajectory.
               </p>
               <br />
               <p>
                 In the fast-paced world of technology, staying abreast of the
-                latest trends and developments is not just an option; it's a
-                necessity. From ground-breaking innovations to transformative
+                latest trends and developments is not just an option; it&apos;s
+                a necessity. From ground-breaking innovations to transformative
                 disruptions, the tech industry continues to reshape our lives,
                 economies, and societies at an unprecedented pace. In this
-                article, we'll delve into the dynamic realm of technology,
+                article, we&apos;ll delve into the dynamic realm of technology,
                 exploring its current landscape and the key trends shaping its
                 future trajectory.
               </p>
@@ -143,11 +143,11 @@ export default function InnerBlog() {
             </div>
             <p>
               In the fast-paced world of technology, staying abreast of the
-              latest trends and developments is not just an option; it's a
+              latest trends and developments is not just an option; it&apos;s a
               necessity. From ground-breaking innovations to transformative
               disruptions, the tech industry continues to reshape our lives,
               economies, and societies at an unprecedented pace. In this
-              article, we'll delve into the dynamic realm of technology,
+              article, we&apos;ll delve into the dynamic realm of technology,
               exploring its current landscape and the key trends shaping its
               future trajectory.
             </p>

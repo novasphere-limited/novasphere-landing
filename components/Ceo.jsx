@@ -31,14 +31,14 @@ export default function Ceo() {
             <p className="text-base font-normal mb-1">
               Ahmed,serves as the Co-Founder & CEO of Novasphere Technology
               Solution Ltd. In his role, Ahmed not only leads the Executive
-              Leadership Team but also spearheads the company's overarching
+              Leadership Team but also spearheads the company&apos;s overarching
               direction and strategy.
               <br /> <br /> Driven by a deep-seated passion for leveraging
               technology to enhance customer experiences throughout Africa,
               Ahmed is committed to ensuring that Novasphere stands at the
               forefront of innovative solutions. With a keen focus on building
-              impactful technology solutions, Ahmed's leadership ensures that
-              Novasphere remains dedicated to its mission of positively
+              impactful technology solutions, Ahmed&apos;s leadership ensures
+              that Novasphere remains dedicated to its mission of positively
               transforming the African market landscape through cutting-edge
               advancements in customer service and technology.
             </p>
@@ -53,14 +53,14 @@ export default function Ceo() {
             <p className="text-base font-normal mb-1">
               Ahmed,serves as the Co-Founder & CEO of Novasphere Technology
               Solution Ltd. In his role, Ahmed not only leads the Executive
-              Leadership Team but also spearheads the company's overarching
+              Leadership Team but also spearheads the company&apos;s overarching
               direction and strategy.
               <br /> <br /> Driven by a deep-seated passion for leveraging
               technology to enhance customer experiences throughout Africa,
               Ahmed is committed to ensuring that Novasphere stands at the
               forefront of innovative solutions. With a keen focus on building
-              impactful technology solutions, Ahmed's leadership ensures that
-              Novasphere remains dedicated to its mission of positively
+              impactful technology solutions, Ahmed&apos;s leadership ensures
+              that Novasphere remains dedicated to its mission of positively
               transforming the African market landscape through cutting-edge
               advancements in customer service and technology.
             </p>

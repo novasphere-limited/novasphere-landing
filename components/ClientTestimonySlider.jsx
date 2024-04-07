@@ -23,8 +23,9 @@ export default function TestimonySlider({ ArrayList }) {
               >
                 <div className="rounded-lg p-5 bg-white w-full">
                   <p className="text-2_regular mb-5  border-b-2 pb-2">
-                    "We love Novasphere! Our designers were using it for their
-                    projects, so we already knew what kind of design they want."
+                    &apos;We love Novasphere! Our designers were using it for
+                    their projects, so we already knew what kind of design they
+                    want.&apos;
                   </p>
                   <div className="flex items-center gap-4">
                     <div

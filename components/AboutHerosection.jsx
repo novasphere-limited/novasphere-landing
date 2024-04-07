@@ -28,9 +28,9 @@ export default function AboutHerosection() {
             <span className="text-warning700">Elevating</span> Client Experience
           </h6>
           <p className="text-base font-normal">
-            At Novasphere, we're dedicated to putting our clients first. From
-            the moment you reach out to us, your satisfaction becomes our top
-            priority.
+            At Novasphere, we&apos;re dedicated to putting our clients first.
+            From the moment you reach out to us, your satisfaction becomes our
+            top priority.
           </p>
           <div className="absolute bottom-[-6px] left-[11.5rem] hidden xl:block">
             <Image

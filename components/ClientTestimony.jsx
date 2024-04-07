@@ -16,8 +16,8 @@ export default function ClientTestimony() {
       <div className="lg:grid grid-cols-3 gap-4 hidden mb-5">
         <div className="rounded-lg p-5 bg-white">
           <p className="text-2_regular mb-5 pb-2">
-            "We love Novasphere! Our designers were using it for their projects,
-            so we already knew what kind of design they want."
+            &apos;We love Novasphere! Our designers were using it for their
+            projects, so we already knew what kind of design they want.&apos;
           </p>
           <div className="flex items-center gap-4">
             <div
@@ -39,8 +39,8 @@ export default function ClientTestimony() {
         </div>
         <div className="rounded-lg p-5 bg-white">
           <p className="text-2_regular mb-5 pb-2">
-            "We love Novasphere! Our designers were using it for their projects,
-            so we already knew what kind of design they want."
+            &apos;We love Novasphere! Our designers were using it for their
+            projects, so we already knew what kind of design they want.&apos;
           </p>
           <div className="flex items-center gap-4">
             <div
@@ -62,8 +62,8 @@ export default function ClientTestimony() {
         </div>
         <div className="rounded-lg p-5 bg-white">
           <p className="text-2_regular mb-5 pb-2">
-            "We love Novasphere! Our designers were using it for their projects,
-            so we already knew what kind of design they want."
+            &apos;We love Novasphere! Our designers were using it for their
+            projects, so we already knew what kind of design they want.&apos;
           </p>
           <div className="flex items-center gap-4">
             <div
