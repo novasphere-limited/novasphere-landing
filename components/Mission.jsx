@@ -1,8 +1,16 @@
 import { MissionList } from "@/contants";
+import AnimatedInView from "./Animate";
 
 export default function Mission() {
   return (
-    <div>
+    <AnimatedInView
+      threshold={0.5}
+      variants={{
+        initial: { opacity: 0, x: 50 },
+        animate: { opacity: 1, x: 0 },
+        transition: { duration: 1.5 },
+      }}
+    >
       <div className="flex justify-center text-center main-container margin-spec">
         <div
           className="grid-2 rounded-[12px]"
@@ -31,6 +39,6 @@ export default function Mission() {
           ))}
         </div>
       </div>
-    </div>
+    </AnimatedInView>
   );
 }

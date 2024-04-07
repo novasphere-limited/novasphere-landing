@@ -1,5 +1,6 @@
 import { NewsList } from "@/contants";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function News() {
   return (
@@ -38,7 +39,10 @@ export default function News() {
                 <h6 className="font-normal text-sm mb-[22px] text-[#444444]">
                   {news.text}
                 </h6>
-                <button className="text-2_bold flex gap-2 items-center mt-auto">
+                <Link
+                  className="text-2_bold flex gap-2 items-center mt-auto"
+                  href={`/blog/${news.id}`}
+                >
                   <p className="text-warning500 font-medium text-base">
                     Read More
                   </p>
@@ -48,7 +52,7 @@ export default function News() {
                     width={12}
                     height={14}
                   />
-                </button>
+                </Link>
               </div>
             </div>
           </>

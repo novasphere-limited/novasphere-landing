@@ -5,6 +5,7 @@ import { dummyBlogPostData } from "@/contants";
 import Layout from "@/components/Layout";
 import Subscribe from "@/components/Subscribe";
 import StartProject from "@/components/StartProject";
+import InnerBlog from "@/components/InnerBlog";
 
 export default function InnerBlogPage() {
   const router = useRouter();
@@ -13,7 +14,8 @@ export default function InnerBlogPage() {
   return (
     <div>
       <Layout>
-        <div className="inner-blog-bg_img flex items-center justify-center h-[50vh]">
+        <InnerBlog />
+        {/* <div className="inner-blog-bg_img flex items-center justify-center h-[50vh]">
           <div>
             <h2 className="header-2_medium mb-4">
               We help give the perfect solution to your Business
@@ -161,7 +163,7 @@ export default function InnerBlogPage() {
               </button>
             </div>
           </form>
-        </div>
+        </div> */}
         <StartProject />
         <Subscribe />
       </Layout>

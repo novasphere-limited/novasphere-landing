@@ -1,5 +1,6 @@
 import Image from "next/image";
 import LinkBtn from "./LinkBtn";
+import { ROUTES } from "@/contants/ROUTES";
 
 export default function Demo() {
   return (
@@ -8,7 +9,7 @@ export default function Demo() {
         <h1 className="xl:text-[40px] lg:text-[34px] md:text-[30px] text-2xl font-medium">
           Invest in your people. Accelerate your business results.
         </h1>
-        <LinkBtn href="#" text="Request a demo" />
+        <LinkBtn href={ROUTES.CONTACT} text="Request a demo" />
       </div>
       <div className="flex justify-center w-full md:mt-0 mt-5">
         <Image
