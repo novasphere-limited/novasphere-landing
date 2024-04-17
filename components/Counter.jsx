@@ -20,7 +20,7 @@ const Counter = ({ endValue1, endValue2, endValue3 }) => {
         <div className="flex justify-center">
           <div className="flex bg-[#D6E9FE] justify-center w-[608px] py-[20px] lg:px-[50px] md:px-[34px] sm:px-[20px] px-[12px]">
             <div className="w-full border-e-4">
-              <h1 className="font-semibold text-3xl mb-3">
+              <h1 className="font-semibold md:text-3xl text-2xl mb-3">
                 <CountUp end={endValue1} duration={5} />+
               </h1>
               <h5 className="text-1_regular">Projects</h5>

@@ -18,7 +18,7 @@ export default function Footer() {
       }}
     >
       <div className="footer-container">
-        <div className="footer-grid justify-between pb-8 footer-container_inner gap-10">
+        <div className="footer-grid justify-between md:pb-8 sm:pb-5 pb-3 footer-container_inner gap-10">
           <div className="w-full footer-flex_1">
             <div>
               <Image
@@ -96,14 +96,14 @@ export default function Footer() {
         <div className="footer-container_inner">
           <SocialPage color="#000000" />
         </div>
-        <p className="text-2_regular text-center mt-[90px]">
+        <p className="text-2_regular text-center xl:mt-[90px] mt-5 sm:mt-7 md:mt-10 lg:mt-[70px]">
           <span
             className="rounded-full px-1 py-0 text-center me-1"
             style={{ border: "1px solid" }}
           >
             c
           </span>
-          2023 PayyMe-All Right Reserved
+          2023 Novasphere-All Right Reserved
         </p>
       </div>
     </AnimatedInView>

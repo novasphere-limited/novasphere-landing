@@ -25,6 +25,7 @@ export default function News() {
                   height={188}
                   alt={news.author}
                   className="rounded-[10px] w-full"
+                  loading="lazy"
                 />
               </div>
               <div>

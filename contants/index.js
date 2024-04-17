@@ -181,7 +181,8 @@ export const NewsList = [
   },
   {
     id: 3,
-    imgSrc: "/asset/nova-news-3.png",
+    imgSrc:
+      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356909/PayyMe/66044214ef1b635fcb1a8571_-p-800_uu7tna.png",
     title: "ANNOUNCEMENTS",
     header: "Product Updates: Informed Comp Conversations, Engagement.....",
     text: "Discover Lattice's newest updates - enabling you to make the most of your people data, optimize compensation cycles....",

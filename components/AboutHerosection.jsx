@@ -3,7 +3,7 @@ import LinkBtn from "./LinkBtn";
 
 export default function AboutHerosection() {
   return (
-    <div className="main-container xxl:mx-[100px] lg:mx-[75px] md:mx-[50px] sm:mx-[25px] mx-3 bg-about-img lg:h-[calc(75vh)] sm:h-[calc(50vh)]">
+    <div className="main-container xl:mx-[100px] lg:mx-[75px] md:mx-[50px] sm:mx-[25px] mx-3 bg-about-img xl:h-[calc(75vh)] md:h-[calc(50vh)] h-[300px]]">
       <div className="md:flex justify-between gap-3">
         <div className=" xl:mt-[50px] lg:mt-[35px] md:mt-[28px] sm:mt-[15px] mt-2 relative w-full md:w-[422px]">
           <h6 className="font-bold text-3xl mb-3">
@@ -20,6 +20,7 @@ export default function AboutHerosection() {
               width={176}
               height={39}
               src="/asset/nova-about-arrow.png"
+              loading="lazy"
             />
           </div>
         </div>
@@ -42,17 +43,6 @@ export default function AboutHerosection() {
           </div>
         </div>
       </div>
-      {/* <div
-        className="absolute"
-        style={{ left: "50%", transform: "translateX(-50%)" }}
-      >
-        <Image
-          src="/asset/nova-about-hero-img.png"
-          alt="Novasphere hero picture"
-          width={745}
-          height={610}
-        />
-      </div> */}
     </div>
   );
 }

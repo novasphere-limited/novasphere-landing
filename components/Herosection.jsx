@@ -11,7 +11,7 @@ export default function HeroSection() {
       variants={{
         initial: { opacity: 0, y: -50 },
         animate: { opacity: 1, y: 0 },
-        transition: { duration: 1.5 },
+        transition: { duration: 0.5 },
       }}
     >
       <div className="text-center bg-image mb-[134px]">
@@ -35,13 +35,14 @@ export default function HeroSection() {
         </div>
         <LinkBtn href="#" text="Get Started" />
         <div className="relative">
-          <div className="flex justify-center my-4">
+          <div className="flex justify-center my-4 lg:h-[683px] overflow-hidden h-[483px]">
             <Image
               src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712331407/6E11328D-8F76-48CF-AA46-AD9C6A58F002_airfcu.png"
               alt="Novasphere hero picture"
               width={1223}
               height={684}
-              className="rounded-lg w-full"
+              className="rounded-lg"
+              loading="lazy"
             />
           </div>
           <div className="absolute top-[4rem] left-0 hidden md:block">
@@ -51,6 +52,7 @@ export default function HeroSection() {
               width={336}
               height={245}
               className="rounded-lg"
+              loading="lazy"
             />
           </div>
           <div className="absolute bottom-[-6rem] right-0 hidden md:block">
@@ -60,6 +62,7 @@ export default function HeroSection() {
               width={260}
               height={299}
               className="rounded-lg"
+              loading="lazy"
             />
           </div>
         </div>

@@ -68,6 +68,7 @@ export default function InnerBlog() {
             height={565}
             width={1032}
             className=" w-full"
+            loading="lazy"
           />
         </div>
         <div className="grid-inner_blog gap-4">
@@ -139,6 +140,7 @@ export default function InnerBlog() {
                 alt="Inner blog video"
                 height={329}
                 width={336}
+                loading="lazy"
               />
             </div>
             <p>

@@ -17,6 +17,7 @@ export default function Demo() {
           width={515}
           height={289}
           src="/asset/nova-bg-demo-vid.png"
+          loading="lazy"
         />
       </div>
     </div>
