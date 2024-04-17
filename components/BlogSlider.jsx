@@ -51,6 +51,7 @@ export default function BlogSlide() {
               width={473}
               height={332}
               className="w-full h-[332px]"
+              loading="lazy"
             />
           </div>
           <div className="rounded-lg p-5 w-full py-6">

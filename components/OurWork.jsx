@@ -36,6 +36,7 @@ export default function OurWork() {
                   alt="Nav arrow"
                   height={39}
                   width={93}
+                  loading="lazy"
                 />
               </div>
               <h6 className="text-2xl font-semibold mb-4 text-[#2878CF]">
@@ -60,13 +61,15 @@ export default function OurWork() {
                 </div>
               </Link>
             </div>
-            <div className="w-full flex lg:justify-end justify-center">
+            <div className="w-full flex lg:justify-end justify-center xl:h-[550px] h-[350px] overflow-hidden">
               <Image
                 src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712330369/4CA11323-1BB1-4865-8CD4-D4A59C240BF6_ojhhpe.png"
                 alt="Work image"
                 width={416}
                 height={550}
-                className="rounded-md "
+                className="rounded-md w-full"
+                loading="lazy"
+                objectFit="cover"
               />
             </div>
           </div>

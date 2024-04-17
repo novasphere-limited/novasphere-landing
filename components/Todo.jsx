@@ -31,6 +31,7 @@ export default function Todo() {
                 height={68}
                 width={101}
                 src="/asset/nova-circ.png"
+                loading="lazy"
               />
             </div>
           </div>
@@ -63,6 +64,7 @@ export default function Todo() {
                   height={
                     todo.icon !== "/favicon_io/nova-browser-1.svg" ? 56 : 106
                   }
+                  loading="lazy"
                 />
               </div>
               <div className="flex pe-[3px]">

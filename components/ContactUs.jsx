@@ -32,7 +32,7 @@ export default function ContactUs() {
               placeholder=""
               className="w-full border-b-2 border-gray-50 mb-3 bg-[#e2e2e2]"
             />
-            <label className="text-sm text-[#8E8E8E]">Your message</label>
+            <label className="text-sm text-[#8E8E8E]">Subject</label>
             <input
               type="text"
               placeholder=""
@@ -50,6 +50,7 @@ export default function ContactUs() {
             width={593}
             height={632}
             className="rounded-[20px] w-full md:w-[393px] lg:w-[593px]"
+            loading="lazy"
           />
         </div>
       </div>

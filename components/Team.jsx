@@ -36,6 +36,7 @@ export default function Team() {
                 src={team.imgSrc}
                 width={300}
                 height={540}
+                loading="lazy"
               />
             </div>
             <div className="absolute bottom-4 text-white bg-black bg-opacity-20 backdrop-blur-[4px] px-auto w-[300px]">
