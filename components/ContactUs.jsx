@@ -24,20 +24,21 @@ export default function ContactUs() {
             <input
               type="text"
               placeholder=""
-              className="w-full border-b-2 mb-3 bg-[#e2e2e2] border-gray-50"
+              className="w-full border-b-2 mb-3 bg-[#e2e2e2] border-[#D2D2D2]"
             />
             <label className="text-sm text-[#8E8E8E]">Email Address</label>
             <input
               type="email"
               placeholder=""
-              className="w-full border-b-2 border-gray-50 mb-3 bg-[#e2e2e2]"
+              className="w-full border-b-2 border-[#D2D2D2] mb-3 bg-[#e2e2e2]"
             />
-            <label className="text-sm text-[#8E8E8E]">Subject</label>
-            <input
-              type="text"
-              placeholder=""
-              className="w-full border-b-2 mb-3 bg-[#e2e2e2] border-gray-50"
-            />
+            <label className="text-sm text-[#8E8E8E] mb-2">Subject</label>
+            <textarea
+              placeholder="Your message"
+              className="p-3 w-full mb-2 border-2 bg-[#e2e2e2] border-b-2 border-[#D2D2D2]"
+              style={{ minHeight: "200px" }}
+            ></textarea>
+
             <div className="flex justify-center my-5 ">
               <Button btnText="Submit" type="submit" />
             </div>
@@ -51,6 +52,7 @@ export default function ContactUs() {
             height={632}
             className="rounded-[20px] w-full md:w-[393px] lg:w-[593px]"
             loading="lazy"
+            style={{ objectFit: "contain" }}
           />
         </div>
       </div>

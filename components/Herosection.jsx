@@ -33,9 +33,9 @@ export default function HeroSection() {
             </h6>
           </div>
         </div>
-        <LinkBtn href="#" text="Get Started" />
+        <LinkBtn href="/contact" text="Get Started" />
         <div className="relative">
-          <div className="flex justify-center my-4 lg:h-[683px] overflow-hidden h-[483px]">
+          <div className="flex justify-center my-4 lg:h-[683px] overflow-hidden h-[283px]">
             <Image
               src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712331407/6E11328D-8F76-48CF-AA46-AD9C6A58F002_airfcu.png"
               alt="Novasphere hero picture"
@@ -43,6 +43,7 @@ export default function HeroSection() {
               height={684}
               className="rounded-lg"
               loading="lazy"
+              style={{ objectFit: "contain" }}
             />
           </div>
           <div className="absolute top-[4rem] left-0 hidden md:block">
@@ -53,6 +54,7 @@ export default function HeroSection() {
               height={245}
               className="rounded-lg"
               loading="lazy"
+              style={{ objectFit: "contain" }}
             />
           </div>
           <div className="absolute bottom-[-6rem] right-0 hidden md:block">
@@ -63,6 +65,7 @@ export default function HeroSection() {
               height={299}
               className="rounded-lg"
               loading="lazy"
+              style={{ objectFit: "contain" }}
             />
           </div>
         </div>
