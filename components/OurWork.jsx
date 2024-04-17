@@ -63,7 +63,7 @@ export default function OurWork() {
             </div>
             <div className="w-full flex lg:justify-end justify-center xl:h-[550px] h-[350px] overflow-hidden">
               <Image
-                src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712330369/4CA11323-1BB1-4865-8CD4-D4A59C240BF6_ojhhpe.png"
+                src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356965/PayyMe/Frame_1321315220_bxbqby.png"
                 alt="Work image"
                 width={416}
                 height={550}
