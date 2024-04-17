@@ -15,7 +15,7 @@ export default function ModalContent({ modalObj }) {
         {modalObj.content}
       </p>
       <div className="flex justify-start">
-        <LinkBtn href="#" text="Contact Us" />
+        <LinkBtn href="/contact" text="Contact Us" />
       </div>
     </div>
   );

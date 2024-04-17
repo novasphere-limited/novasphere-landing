@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function AnimatedInView({
   children,
-  threshold = 0.5,
+  threshold = 0.2,
   variants,
   overflowHidden,
 }) {

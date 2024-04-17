@@ -47,7 +47,10 @@ export default function OurWork() {
                 SMS at a time. Without worrying about connectivity, PayyME helps
                 small businesses and  individuals pay and get paid
               </h6>
-              <Link href="#" className="flex items-center gap-2">
+              <Link
+                href="https://www.payymenow.com"
+                className="flex items-center gap-2"
+              >
                 <p className="text-warning500 font-medium text-base">
                   Go to PayMe
                 </p>

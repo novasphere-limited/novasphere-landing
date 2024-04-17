@@ -128,11 +128,6 @@ export const NavList = [
   },
   {
     id: 3,
-    name: "Services",
-    route: "/",
-  },
-  {
-    id: 4,
     name: "Blog",
     route: "/blog",
   },
