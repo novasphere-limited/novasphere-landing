@@ -12,7 +12,7 @@ export default function AboutUs() {
         transition: { duration: 0.5 },
       }}
     >
-      <div className="main-container">
+      <div className="xl:me-[67px] mx-3 sm:mx-7 md:mx-10 lg:mx-[52px] xl:mb-[187px] lg:mb-[130px] md:mb-[80px] mb-4 sm:mb-10">
         <div className="relative">
           <div className="my-4 flex justify-end">
             <Image
@@ -22,16 +22,17 @@ export default function AboutUs() {
               height={590}
               className="rounded-lg w-full md:w-[781px]"
               loading="lazy"
+              style={{ objectFit: "cover" }}
             />
           </div>
           <div
-            className="rounded-md shadow-lg md:p-5 p-2 about-abs sm:pb-10 sm:block hidden"
+            className="rounded-md xl:px-8 lg:px-5 sm:px-4 shadow-lg xl:py-[52px] lg:my-[40px] md:my-[32px] py-4 about-abs sm:pb-10 md:block hidden"
             style={{ background: "#fff" }}
           >
-            <h5 className="md:text-3xl text-xl font-semibold lg:mb-3 mb-1 text-warning600">
+            <h5 className="md:text-[34px] text-4xl font-semibold lg:mb-2 mb-1 text-warning600">
               About Us
             </h5>
-            <p className="text-base">
+            <p className="text-base text-[#333232]">
               At Novasphere, we are passionate about harnessing the power of
               technology to propel businesses forward. As a company we
               specialize in software development, mobile app development, UI/UX
@@ -41,13 +42,13 @@ export default function AboutUs() {
             </p>
           </div>
           <div
-            className="rounded-md shadow-lg md:p-5 p-2 sm:pb-10 block sm:hidden"
+            className="rounded-md shadow-lg p-3 sm:pb-10 block md:hidden px-3"
             style={{ background: "#fff" }}
           >
-            <h5 className="md:text-3xl text-xl font-semibold lg:mb-3 mb-1 text-warning600">
+            <h5 className="text-4xl font-semibold lg:mb-3 mb-1 text-warning600">
               About Us
             </h5>
-            <p className="text-base">
+            <p className="text-base text-[#333232]">
               At Novasphere, we are passionate about harnessing the power of
               technology to propel businesses forward. As a company we
               specialize in software development, mobile app development, UI/UX

@@ -12,12 +12,12 @@ export default function InnerBlogPage() {
   const { id } = router.query;
 
   return (
-    <div>
-      <Layout>
+    <Layout>
+      <div className="spec-pt">
         <InnerBlog />
         <StartProject />
         <Subscribe />
-      </Layout>
-    </div>
+      </div>
+    </Layout>
   );
 }

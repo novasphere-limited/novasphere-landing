@@ -15,8 +15,8 @@ export default function StartProject() {
         transition: { duration: 0.8 },
       }}
     >
-      <div className="main-container text-center bg-[#DAEBFD6E]">
-        <h2 className="font-semibold text-3xl mb-2 md:mt-8 sm:mt-5">
+      <div className="text-center bg-[#DAEBFD6E] xl:py-[49px] py-[44px] md:py-9 lg:py-11 px-3">
+        <h2 className="font-semibold xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl mb-[27px]">
           Let&rsquo;s get your project started
         </h2>
         <div className="md:mb-8 sm:mb-5 mb-3">

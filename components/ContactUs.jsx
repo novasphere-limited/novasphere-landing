@@ -13,7 +13,7 @@ export default function ContactUs() {
         transition: { duration: 0.8 },
       }}
     >
-      <div className="main-container sm:flex justify-between items-center">
+      <div className="main-container sm:flex justify-between items-center py-[59px] contact-gap">
         <div className="w-full">
           <h1 className="font-normal text-[32px]">Hello,</h1>
           <p className="font-base mb-5">
@@ -35,24 +35,26 @@ export default function ContactUs() {
             <label className="text-sm text-[#8E8E8E] mb-2">Subject</label>
             <textarea
               placeholder="Your message"
-              className="p-3 w-full mb-2 border-2 bg-[#e2e2e2] border-b-2 border-[#D2D2D2]"
-              style={{ minHeight: "200px" }}
+              className="p-3 w-full mb-2 border-2 bg-[#e2e2e2] border-b-2 border-[#D2D2D2] lg:h-[200px] h-[100px]"
+              style={{ maxHeight: "200px" }}
             ></textarea>
 
-            <div className="flex justify-center my-5 ">
-              <Button btnText="Submit" type="submit" />
+            <div className=" lg:mt-[59px] mt-7">
+              <button className="md:w-[300px] w-full text-white bg-[#3090F8] text-sm font-semibold py-[10px] rounded-sm">
+                Submit
+              </button>
             </div>
           </form>
         </div>
-        <div className="w-full flex md:justify-end justify-center">
+        <div className="w-full flex md:justify-end justify-center mt-6 sm:mt-0">
           <Image
             src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712341553/F690BF8D-E4DF-4E59-BDA1-2D89003BC9D6_nj0qr1.png"
             alt="Novasphere contact picture"
             width={593}
             height={632}
-            className="rounded-[20px] w-full md:w-[393px] lg:w-[593px]"
+            className="rounded-[20px] w-full h-auto"
             loading="lazy"
-            style={{ objectFit: "contain" }}
+            style={{ objectFit: "cover" }}
           />
         </div>
       </div>

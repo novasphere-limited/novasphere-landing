@@ -27,13 +27,13 @@ function App({ Component, emotionCache = clientSideEmotionCache, pageProps }) {
           type="image/x-icon"
         />
       </Head>
-      <ThemeProvider theme={theme}>
-        {/* <Provider store={store}> */}
-        <CssBaseline />
-        <Component {...pageProps} />
+      {/* <ThemeProvider theme={theme}> */}
+      {/* <Provider store={store}> */}
+      <CssBaseline />
+      <Component {...pageProps} />
 
-        {/* </Provider> */}
-      </ThemeProvider>
+      {/* </Provider> */}
+      {/* </ThemeProvider> */}
     </CacheProvider>
   );
 }

@@ -24,7 +24,9 @@ export default function Todo() {
       <div className="main-container">
         <div className="lg:ms-[2rem] md:ms-[1.5rem] sm:ms-[1rem] ms-2">
           <div className="relative">
-            <h2 className="text-3xl font-semibold mb-3">What we do?</h2>
+            <h2 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl font-semibold mb-3">
+              What we do?
+            </h2>
             <div className="absolute top-[-1rem] left-[-1.5rem]">
               <Image
                 alt="Circle icon"
@@ -36,7 +38,7 @@ export default function Todo() {
             </div>
           </div>
 
-          <p className="text-2_regular mb-[66px]" style={{ maxWidth: "550px" }}>
+          <p className="text-base mb-[66px]" style={{ maxWidth: "550px" }}>
             At Novasphere, we&apos;re committed to igniting your potential by
             connecting you with boundless opportunities in the ever-evolving
             digital landscape:
@@ -73,7 +75,7 @@ export default function Todo() {
               <p className="text-2_regular mb-5">{todo.content}</p>
 
               <button
-                className="text-2_bold flex gap-2 items-center mt-auto"
+                className="text-base flex gap-2 items-center mt-auto"
                 onClick={() => handleModal(todo)}
               >
                 <p className="text-warning500 font-medium text-base">

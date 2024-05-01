@@ -13,12 +13,12 @@ export default function Subscribe() {
     >
       <div style={{ background: "#030423" }} className="subscribe-container">
         <div>
-          <h2 className="font-medium text-3xl mb-3 text-[#FEFCFC]">
+          <h2 className="font-medium xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl mb-1 text-[#FEFCFC]">
             NEWSLETTER
           </h2>
-          <h6 className="text-normal text-base text-white mb-5">
+          <p className="text-normal md:text-base text-sm text-white md:mb-8 mb-4">
             Subscribe to all our news letter
-          </h6>
+          </p>
           <div style={{ maxWidth: "662px" }}>
             <form className=" lg:flex lg:border-2 rounded-md p-2 lg:bg-white">
               <input
