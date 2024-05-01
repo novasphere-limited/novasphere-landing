@@ -10,9 +10,11 @@ import StartProject from "@/components/StartProject";
 
 export default function NovasphereHome() {
   return (
-    <div className="bg-[#e2e2e2]">
-      <Layout>
-        <HeroSection />
+    <Layout>
+      <div className="bg-[#e2e2e2] spec-pt">
+        <div className="bg-image">
+          <HeroSection />
+        </div>
         <Todo />
         <OurWork />
         <Counter endValue1={100} endValue2={150} endValue3={30} />
@@ -21,7 +23,7 @@ export default function NovasphereHome() {
         <ClientTestimony />
         <StartProject />
         <Subscribe />
-      </Layout>
-    </div>
+      </div>
+    </Layout>
   );
 }

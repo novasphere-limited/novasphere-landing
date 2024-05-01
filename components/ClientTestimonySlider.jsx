@@ -21,8 +21,8 @@ export default function TestimonySlider({ ArrayList }) {
                 style={{ flex: "0 0 auto" }}
                 key={feature.id}
               >
-                <div className="rounded-lg p-5 bg-white w-full">
-                  <p className="text-2_regular mb-5  border-b-2 pb-2">
+                <div className="rounded-md md:p-4 p-2 bg-white w-full">
+                  <p className="text-sm mb-2  border-b-2 pb-2">
                     &apos;We love Novasphere! Our designers were using it for
                     their projects, so we already knew what kind of design they
                     want.&apos;
@@ -40,10 +40,12 @@ export default function TestimonySlider({ ArrayList }) {
                       />
                     </div>
                     <div>
-                      <h4 className="text-[#1F1F1F] mb-2 font-semibold">
+                      <h4 className="text-[#1F1F1F] text-sm mb-2 font-semibold">
                         Devon Lane
                       </h4>
-                      <p className="text-[#444444]">Co-Founder, Design.co</p>
+                      <p className="text-[#444444] text-xs">
+                        Co-Founder, Design.co
+                      </p>
                     </div>
                   </div>
                 </div>

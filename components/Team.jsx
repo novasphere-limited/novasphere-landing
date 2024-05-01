@@ -6,7 +6,7 @@ import AnimatedInView from "./Animate";
 export default function Team() {
   return (
     <div className="main-container text-center">
-      <h1 className="text-2xl font-bold mb-4 text-center  text-warning700">
+      <h1 className="md:text-2xl text-xl font-bold md:mb-4 mb-2 text-center  text-warning700">
         Meet the Team
       </h1>
       <div className="flex justify-center">
@@ -37,6 +37,8 @@ export default function Team() {
                 width={300}
                 height={540}
                 loading="lazy"
+                className="w-full"
+                style={{ objectFit: "cover" }}
               />
             </div>
             <div className="absolute bottom-4 text-white bg-black bg-opacity-20 backdrop-blur-[4px] px-auto w-[300px]">

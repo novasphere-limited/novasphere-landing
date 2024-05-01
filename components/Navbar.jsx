@@ -15,7 +15,16 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="navbar bg-[#ECF3F54D]">
+      <div
+        className={`navbar ${
+          router.pathname === "/"
+            ? "bg-image"
+            : router.pathname === "/about"
+            ? "bg-[#EEF8FF] backdrop-blur-md"
+            : "bg-[#ECF3F54D]"
+        } xl:px-[100px] lg:px-[75px] md:px-[50px] text-[#545353] backdrop-blur-md`}
+        style={{ position: "fixed", top: "0", width: "100%", zIndex: "1000" }}
+      >
         <Link href="/">
           <Image
             src="/asset/nova_logo.png"
@@ -27,13 +36,15 @@ export default function Navbar() {
         <ul>
           {NavList.map((nav) => (
             <Link key={nav.id} href={nav.route} className="relative">
-              <li
-                className={`label-3_medium ${
-                  router.pathname === nav.route ? "active-link" : ""
+              <h6
+                className={`text-base  ${
+                  router.pathname === nav.route
+                    ? "active-link font-semibold"
+                    : "font-normal"
                 }`}
               >
                 {nav.name}
-              </li>
+              </h6>
               <div
                 className={`${
                   router.pathname === nav.route ? "active-link_1" : ""
@@ -42,22 +53,32 @@ export default function Navbar() {
             </Link>
           ))}
         </ul>
-        <div>
+        <div className="bg-warning600 w-[187px] rounded-[4px]">
           <Link href={ROUTES.CONTACT}>
-            <h1 className="label-2_medium navbar_outline bg-warning600 text-white">
+            <h1 className="text-xl font-medium navbar_outline bg-warning600 text-white">
               Contact Us
             </h1>
           </Link>
         </div>
       </div>
-      <div className="navbar-mobile">
+      <div
+        className={`navbar-mobile h-[73px] backdrop-blur-md ${
+          router.pathname === "/"
+            ? "bg-image"
+            : router.pathname === "/about"
+            ? "bg-[#EEF8FF]"
+            : "bg-[#ECF3F54D]"
+        }`}
+        style={{ position: "fixed", top: "0", width: "100%", zIndex: "1000" }}
+      >
         <div className="flex justify-between items-center">
-          <Link href="/" className="mb-2">
+          <Link href="/" className="">
             <Image
               src="/asset/nova_logo.png"
               width={100}
               height={43}
               alt="paymee logo"
+              style={{ height: "43px !important", objectFit: "cover" }}
             />
           </Link>
           <button onClick={handleNavbar}>
@@ -73,13 +94,13 @@ export default function Navbar() {
           <ul>
             {NavList.map((nav) => (
               <Link key={nav.id} href={nav.route} className="relative">
-                <li
+                <h6
                   className={`label-3_medium mb-2 ${
                     router.pathname === nav.route ? "active-link" : ""
                   }`}
                 >
                   {nav.name}
-                </li>
+                </h6>
               </Link>
             ))}
             <Link href={ROUTES.CONTACT}>

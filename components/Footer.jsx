@@ -17,8 +17,8 @@ export default function Footer() {
         transition: { duration: 0.5 },
       }}
     >
-      <div className="footer-container">
-        <div className="footer-grid justify-between md:pb-8 sm:pb-5 pb-3 footer-container_inner gap-10">
+      <div className="footer-container text-[#1F1F1F]">
+        <div className="footer-grid justify-between gap-10">
           <div className="w-full footer-flex_1">
             <div>
               <Image
@@ -28,52 +28,54 @@ export default function Footer() {
                 alt="Novasphere logo"
               />
             </div>
-            <p className="label-3_regular">(+234)80945678</p>
-            <h6 className="label-3_regular">
+            <p className="text-base font-normal">(+234)80945678</p>
+            <h6 className="text-base font-normal">
               4a Gbade Adeleke Street , Unity Estate , Lagos State
             </h6>
-            <p className="label-3_regular">hello@novasphereltd.com</p>
+            <p className="text-base font-normal">hello@novasphereltd.com</p>
           </div>
           <div className="w-full footer-flex_2">
             <div>
-              <h1 className="text-semibold text-[22px] mb-4 text-warning600">
+              <h1 className="font-semibold text-[22px] mb-[18px] text-warning600">
                 Company
               </h1>
               <Link href={ROUTES.ABOUT}>
-                <p className="label-3_regular mb-2">About us</p>
+                <p className="text-base font-normal mb-2">About us</p>
               </Link>
               <SmoothScroll targetId="ourWork">
-                <p className="label-3_regular mb-2">Our Work</p>
+                <p className="text-base font-normal mb-2">Our Work</p>
               </SmoothScroll>
               <Link href={ROUTES.BLOG}>
-                <p className="label-3_regular mb-2">Blog</p>
+                <p className="text-base font-normal mb-2">Blog</p>
               </Link>
             </div>
             <div className="w-full">
-              <h1 className="text-semibold text-[22px] mb-4 text-warning600">
+              <h1 className="font-semibold text-[22px] mb-[18px] text-warning600">
                 Services
               </h1>
               <ul>
                 <li className="cursor-pointer">
                   <SmoothScroll targetId="todo">
-                    <p className="label-3_regular mb-2">UI/UX Design</p>
+                    <p className="text-base font-normal mb-2">UI/UX Design</p>
                   </SmoothScroll>
                 </li>
                 <li className="cursor-pointer">
                   <SmoothScroll targetId="todo">
-                    <p className="label-3_regular mb-2">Digital Marketing</p>
+                    <p className="text-base font-normal mb-2">
+                      Digital Marketing
+                    </p>
                   </SmoothScroll>
                 </li>
                 <li className="cursor-pointer">
                   <SmoothScroll targetId="todo">
-                    <p className="label-3_regular mb-2">
+                    <p className="text-base font-normal mb-2">
                       Web Development and design
                     </p>{" "}
                   </SmoothScroll>
                 </li>
                 <li className="cursor-pointer">
                   <SmoothScroll targetId="todo">
-                    <p className="label-3_regular mb-2">
+                    <p className="text-base font-normal mb-2">
                       Mobile App development
                     </p>
                   </SmoothScroll>
@@ -81,24 +83,24 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h1 className="text-semibold text-[22px] mb-4 text-warning600">
+              <h1 className="font-semibold text-[22px] mb-[18px] text-warning600">
                 Legal
               </h1>
               <Link href="#">
-                <p className="label-3_regular mb-2">Terms of services</p>
+                <p className="text-base font-normal mb-2">Terms of services</p>
               </Link>
               <Link href="#">
-                <p className="label-3_regular mb-2">Policy</p>
+                <p className="text-base font-normal mb-2">Policy</p>
               </Link>
             </div>
           </div>
         </div>
-        <div className="footer-container_inner">
+        <div className="">
           <SocialPage color="#000000" />
         </div>
-        <p className="text-2_regular text-center xl:mt-[90px] mt-5 sm:mt-7 md:mt-10 lg:mt-[70px]">
+        <p className="text-sm text-center xl:mt-[107px] mt-5 sm:mt-7 md:mt-10 lg:mt-[70px]">
           <span
-            className="rounded-full px-1 py-0 text-center me-1"
+            className="rounded-full px-1 text-center me-1 h-2 w-2"
             style={{ border: "1px solid" }}
           >
             c

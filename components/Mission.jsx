@@ -11,7 +11,7 @@ export default function Mission() {
         transition: { duration: 1.5 },
       }}
     >
-      <div className="flex justify-center text-center main-container margin-spec">
+      <div className="flex justify-center text-center xl:my-[164px] my-7 sm:my-10 md:my-65px] lg:my-[100px] xl:mx-[74px] md:mx-11 lg:mx-[60px] mx-3">
         <div
           className="grid-2 rounded-[12px]"
           style={{ border: "2px solid #D3D3D3" }}
@@ -34,7 +34,7 @@ export default function Mission() {
                   className="absolute top-7"
                 ></div>
               </div>
-              <p className="text-2_regular mb-5">{todo.content}</p>
+              <p className="md:text-xl text-sm mb-5">{todo.content}</p>
             </div>
           ))}
         </div>

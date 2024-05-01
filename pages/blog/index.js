@@ -7,14 +7,14 @@ import Subscribe from "@/components/Subscribe";
 
 export default function BlogPage() {
   return (
-    <div className="bg-[#e2e2e2]">
-      <Layout>
+    <Layout>
+      <div className="bg-[#e2e2e2] spec-pt">
         <Blog />
         <BlogSlide />
         <News />
         <Demo />
         <Subscribe />
-      </Layout>
-    </div>
+      </div>
+    </Layout>
   );
 }

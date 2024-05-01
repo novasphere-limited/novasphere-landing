@@ -10,9 +10,9 @@ import Team from "@/components/Team";
 
 export default function About() {
   return (
-    <div className="bg-[#e2e2e2]">
-      <Layout>
-        <div className="bg-image abs-margin">
+    <Layout>
+      <div className="bg-[#e2e2e2] spec-pt">
+        <div className="bg-image">
           <AboutHerosection />
         </div>
         <Mission />
@@ -22,7 +22,7 @@ export default function About() {
         <ClientTestimony />
         <StartProject />
         <Subscribe />
-      </Layout>
-    </div>
+      </div>
+    </Layout>
   );
 }

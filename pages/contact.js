@@ -4,11 +4,11 @@ import Subscribe from "@/components/Subscribe";
 
 export default function Contact() {
   return (
-    <div className="bg-[#e2e2e2]">
-      <Layout>
+    <Layout>
+      <div className="bg-[#e2e2e2] spec-pt">
         <ContactUs />
         <Subscribe />
-      </Layout>
-    </div>
+      </div>
+    </Layout>
   );
 }

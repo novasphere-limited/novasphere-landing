@@ -15,7 +15,7 @@ export default function OurWork() {
       <div id="ourWork">
         <div className="main-container margin-spec xl:mx-[68px] lg:mx-[48px] md:mx-[36px] sm:mx-[18px] mx-2">
           <div className="flex justify-center">
-            <h2 className="text-3xl font-semibold mb-[64px] text-center relative">
+            <h2 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl font-semibold mb-[64px] text-center relative">
               Our Work
               <div className="absolute right-[-0.8rem] top-[-0.1rem]">
                 <Image
@@ -39,10 +39,10 @@ export default function OurWork() {
                   loading="lazy"
                 />
               </div>
-              <h6 className="text-2xl font-semibold mb-4 text-[#2878CF]">
+              <h6 className="md:text-2xl text-xl font-semibold mb-4 text-[#2878CF]">
                 PayyMe
               </h6>
-              <h6 className="label-2_regular mb-[32px]">
+              <h6 className="xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl text-base mb-[32px]">
                 Revolutionising payment through inclusion and innovation - one
                 SMS at a time. Without worrying about connectivity, PayyME helps
                 small businesses and  individuals pay and get paid
@@ -72,7 +72,7 @@ export default function OurWork() {
                 height={550}
                 className="rounded-md w-full"
                 loading="lazy"
-                objectFit="cover"
+                style={{ objectFit: "cover" }}
               />
             </div>
           </div>

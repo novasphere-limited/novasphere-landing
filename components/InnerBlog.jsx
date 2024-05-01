@@ -32,7 +32,7 @@ export default function InnerBlog() {
     <div className="mb-[120px] main-container">
       <div
         style={{ borderBottom: "2px solid #001F1F14" }}
-        className="pb-1 flex justify-center lg:mx-[80px] mx-3 sm:mx-6 md:mx-9"
+        className="pb-1 flex justify-center lg:mx-[80px] mx-3 sm:mx-6 md:mx-9 mt-6"
       >
         {options.map((option, index) => (
           <button
@@ -59,9 +59,11 @@ export default function InnerBlog() {
           An Update on Q1 2024 Organizational Changes
         </h1>
       </div>
-      <h6 className="text-[#1F1F1F] text-center mb-[44px]">06 April, 2024</h6>
+      <h6 className="text-[#1F1F1F] text-center mb-[44px] font-normal text-sm md:text-base">
+        06 April, 2024
+      </h6>
       <div className="xl:mx-[120px] lg:mx-[70px] md:mx-[35px] sm:mx-[20px] mx-3">
-        <div className="flex justify-center mb-5 h-[565px]">
+        <div className="flex justify-center mb-5 md:h-[565px] h-auto">
           <Image
             alt="Inner blog image"
             src="/asset/nova-innerblog-img.png"
