@@ -62,7 +62,7 @@ export default function Navbar() {
         </div>
       </div>
       <div
-        className={`navbar-mobile h-[73px] backdrop-blur-md ${
+        className={`navbar-mobile  backdrop-blur-md ${
           router.pathname === "/"
             ? "bg-image"
             : router.pathname === "/about"
@@ -71,7 +71,7 @@ export default function Navbar() {
         }`}
         style={{ position: "fixed", top: "0", width: "100%", zIndex: "1000" }}
       >
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center h-[73px]">
           <Link href="/" className="">
             <Image
               src="/asset/nova_logo.png"

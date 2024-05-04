@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function AboutHerosection() {
   return (
     <div className="bg-[#EEF8FF]">
-      <div className="relative bg-about-img xl:h-[calc(75vh)] md:h-[calc(50vh)] h-auto">
+      <div className="relative bg-about-img xl:h-[calc(75vh)] md:h-[calc(50vh)] h-auto xl:pt-[44px] md:pt-8 pt-6">
         <div className="md:flex justify-between gap-3 xl:mx-[100px] lg:mx-[75px] md:mx-[50px] sm:mx-[25px] mx-3 py-5">
           <div className=" xl:mt-[78px] lg:mt-[35px] md:mt-[28px] sm:mt-[15px] mt-2 relative w-full md:w-[422px]">
             <h6 className="font-bold md:text-[34px] text-4xl md:mb-4 mb-2">

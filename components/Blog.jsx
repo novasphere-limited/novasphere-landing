@@ -4,7 +4,7 @@ export default function Blog() {
   return (
     <div>
       <div className="blog-bg_image">
-        <div className="lg:pt-[49px] pt-6 xl:pb-[92px] md:pb-[52px] pb-6">
+        <div className="pt-[44px] xl:pb-[92px] md:pb-[52px] pb-6">
           <h1 className="font-semibold xl:text-[48px] lg:text-[44px] text-[36px] mb-4 text-center">
             <span className="text-warning600">Novasphere</span> Newsroom
           </h1>

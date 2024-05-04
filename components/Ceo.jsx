@@ -20,7 +20,7 @@ export default function Ceo() {
               alt="Info picture"
               width={453}
               height={455}
-              className="rounded-lg w-auto lg:w-[453px]"
+              className="rounded-lg w-full md:w-[453px]"
               loading="lazy"
               style={{ objectFit: "cover" }}
             />
@@ -76,7 +76,7 @@ export default function Ceo() {
               className="rounded-md shadow-lg p-3 pb-10"
               style={{ background: "#fff" }}
             >
-              <h2 className="text-3xl  my-1">Meet the CEO</h2>
+              <h2 className="text-3xl my-1">Meet the CEO</h2>
               <p className="text-base font-normal mb-1">
                 Ahmed,serves as the Co-Founder & CEO of Novasphere Technology
                 Solution Ltd. In his role, Ahmed not only leads the Executive
