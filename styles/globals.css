@@ -1893,8 +1893,8 @@ p {
 }
 @media (max-width: 500px) {
   .ceo-spc {
-    padding-left: 224px;
-    padding-right: 224px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
   .margin-spec {
     margin-top: 20px;

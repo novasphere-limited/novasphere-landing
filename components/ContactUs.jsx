@@ -13,7 +13,7 @@ export default function ContactUs() {
         transition: { duration: 0.8 },
       }}
     >
-      <div className="main-container sm:flex justify-between items-center py-[59px] contact-gap">
+      <div className="main-container sm:flex justify-between items-center md:my-[59px] my-[45px] contact-gap">
         <div className="w-full">
           <h1 className="font-normal text-[32px]">Hello,</h1>
           <p className="font-base mb-5">

@@ -20,7 +20,7 @@ export default function AboutUs() {
               alt="Novasphere hero picture"
               width={781}
               height={590}
-              className="rounded-lg w-full md:w-[781px]"
+              className="rounded-lg w-full md:w-[781px] md:h-[590px] h-auto"
               loading="lazy"
               style={{ objectFit: "cover" }}
             />
