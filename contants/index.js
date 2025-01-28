@@ -131,6 +131,11 @@ export const NavList = [
     name: "Blog",
     route: "/blog",
   },
+  {
+    id: 4,
+    name: "Featured-in",
+    route: "/featured-in",
+  },
 ];
 
 export const TeamList = [

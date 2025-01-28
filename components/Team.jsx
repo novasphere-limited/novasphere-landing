@@ -18,30 +18,18 @@ export default function Team() {
         </h3>
       </div>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 grid-cols-1 justify-between team-margin">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 grid-cols-1 justify-center team-margin">
         {TeamList.map((team, index) => (
           <div
             className={`${
               index === 0 || index === 2
                 ? "sm:mt-[40px] mt-[15px]"
                 : "sm:mb-[40px] mb-0"
-            } flex items-center flex-col relative ${
-              index === 2 ? "sm:mx-auto left-0 right-0" : ""
-            }`}
+            } relative h-[540px] bg-no-repeat bg-cover`}
             key={team.id}
+            style={{ backgroundImage: `url(${team.imgSrc})` }}
           >
-            <div className="flex items-center mb-4 justify-center">
-              <Image
-                alt={team.name}
-                src={team.imgSrc}
-                width={300}
-                height={540}
-                loading="lazy"
-                className="w-full"
-                style={{ objectFit: "cover" }}
-              />
-            </div>
-            <div className="absolute bottom-4 text-white bg-black bg-opacity-20 backdrop-blur-[4px] px-auto w-[300px]">
+            <div className="w-full absolute bottom-0 text-white bg-black bg-opacity-20 backdrop-blur-[4px] px-auto w-[300px]">
               <h4 className="font-normal text-[28px] mb-2">{team.name}</h4>
               <p className="font-normal text-base mb-2">{team.department}</p>
             </div>
