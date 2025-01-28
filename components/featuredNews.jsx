@@ -2,7 +2,7 @@ import { NewsList } from "@/contants";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function News({ data }) {
+export default function FeaturedNews({ data }) {
   const truncateHTML = (html, maxLength) => {
     const text = html.replace(/<[^>]*>/g, "");
     return text.length > maxLength ? text.slice(0, maxLength) + "..." : text;
@@ -52,7 +52,7 @@ export default function News({ data }) {
                 />
                 <Link
                   className="text-2_bold flex gap-2 items-center mt-auto"
-                  href={`/blog/${news.id}`}
+                  href={`/featured-in/${news.id}`}
                 >
                   <p className="text-warning500 font-medium text-base">
                     Read More

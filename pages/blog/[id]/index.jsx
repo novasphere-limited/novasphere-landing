@@ -1,7 +1,4 @@
 import { useRouter } from "next/router";
-import Image from "next/image";
-import Link from "next/link";
-import { dummyBlogPostData } from "@/contants";
 import Layout from "@/components/Layout";
 import Subscribe from "@/components/Subscribe";
 import StartProject from "@/components/StartProject";
@@ -14,7 +11,7 @@ export default function InnerBlogPage() {
   return (
     <Layout>
       <div className="spec-pt">
-        <InnerBlog />
+        <InnerBlog id={id} />
         <StartProject />
         <Subscribe />
       </div>

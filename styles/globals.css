@@ -13,6 +13,11 @@
   padding: 0px;
   box-sizing: border-box;
 }
+input:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
 
 #__next img,
 #__next video {

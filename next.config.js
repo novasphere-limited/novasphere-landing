@@ -2,7 +2,9 @@
 const nextConfig = {
   // reactStrictMode: true,
   env: {
-    baseUrl: "https://jsonplaceholder.typicode.com",
+    NEXT_PUBLIC_API_URL: {
+      PAYYME_BASE_URL: process.env.API_URL,
+    },
   },
   modularizeImports: {
     "@mui/material": {
