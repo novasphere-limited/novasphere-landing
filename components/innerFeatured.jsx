@@ -1,9 +1,8 @@
 import SocialMedia from "./SocialPage";
 import Image from "next/image";
 import Tab from "./tab";
-import { useGetBlogInfo } from "@/service/blog";
 import { useEffect, useState } from "react";
-import { useGetFeaturedIn } from "@/service/featured-in";
+import { useGetFeaturedInfo } from "@/service/featured-in";
 
 export default function InnerFeatured({ id }) {
   const [fetchData, setFetchData] = useState(false);
@@ -12,7 +11,7 @@ export default function InnerFeatured({ id }) {
     getFeaturedInfoIsLoading,
     filterGetFeaturedInfo,
     getFeaturedError,
-  } = useGetFeaturedIn({ enabled: fetchData });
+  } = useGetFeaturedInfo({ enabled: fetchData });
   useEffect(() => {
     if (id) {
       filterGetFeaturedInfo(id);
