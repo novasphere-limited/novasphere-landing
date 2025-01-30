@@ -4,6 +4,8 @@ import Demo from "@/components/Demo";
 import Layout from "@/components/Layout";
 import News from "@/components/News";
 import Subscribe from "@/components/Subscribe";
+import FeaturedNews from "@/components/featuredNews";
+import FeaturedSlide from "@/components/featuredSlide";
 import Tab from "@/components/tab";
 import { useGetBlogPosts } from "@/service/blog";
 import { useGetFeaturedIn } from "@/service/featured-in";
