@@ -22,14 +22,14 @@ export default function Navbar() {
             : router.pathname === "/about"
             ? "bg-[#EEF8FF] backdrop-blur-md"
             : "bg-[#ECF3F54D]"
-        } xl:px-[100px] lg:px-[75px] md:px-[50px] text-[#545353] backdrop-blur-md`}
+        } xl:px-[100px] py-[18px] lg:px-[75px] md:px-[50px] text-[#545353] backdrop-blur-md`}
         style={{ position: "fixed", top: "0", width: "100%", zIndex: "1000" }}
       >
         <Link href="/">
           <Image
-            src="/asset/nova_logo.png"
-            width={88}
-            height={84}
+            src="/asset/nov-logo.png"
+            width={190}
+            height={150}
             alt="paymee logo"
           />
         </Link>
@@ -74,11 +74,11 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-[73px]">
           <Link href="/" className="">
             <Image
-              src="/asset/nova_logo.png"
+              src="/asset/nov-logo.png"
               width={100}
-              height={43}
+              height={63}
               alt="paymee logo"
-              style={{ height: "43px !important", objectFit: "cover" }}
+              style={{ height: "63px !important", objectFit: "cover" }}
             />
           </Link>
           <button onClick={handleNavbar}>
