@@ -26,7 +26,7 @@ export default function AboutUs() {
             />
           </div>
           <div
-            className="rounded-md xl:px-8 lg:px-5 sm:px-4 shadow-lg xl:py-[52px] lg:my-[40px] md:my-[32px] py-4 about-abs sm:pb-10 md:block hidden"
+            className="rounded-md xl:px-8 lg:px-5 sm:px-4 shadow-lg xl:py-[52px] lg:mb-[40px] md:mb-[32px] py-4 about-abs sm:pb-10 md:block hidden"
             style={{ background: "#fff" }}
           >
             <h5 className="md:text-[34px] text-4xl font-semibold lg:mb-2 mb-1 text-warning600">
