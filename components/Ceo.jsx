@@ -13,20 +13,19 @@ export default function Ceo() {
       }}
     >
       <div className="ceo-spc xl:mb-[184px] lg:mb-[134px] md:mb-[72px] mb-4 sm:mb-10">
-        <div className="md:flex sm:mt-5 mt-1 items-center justify-center relative">
-          <div className="ceo-img flex md:block justify-center md:h-[455px] h-auto ">
+        <div className="lg:flex sm:mt-5 mt-1 items-end justify-center">
+          <div className="w-full flex items-center lg:block justify-center lg:w-[453px] lg:h-[455px]">
             <Image
               src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712331990/92979534-4F9D-44C4-89A3-48DAE004875B_in5ija.png"
               alt="Info picture"
-              width={453}
-              height={455}
-              className="rounded-lg w-full md:w-[453px]"
+              // src="/asset/ceoe.png"
+              width={511}
+              height={513}
               loading="lazy"
-              style={{ objectFit: "cover" }}
             />
           </div>
           <div
-            className="rounded-md shadow-lg py-8 px-6 w-full ceo-abs"
+            className="rounded-md shadow-lg py-8 px-6 flex-1 mb-[-22px]"
             style={{ background: "#fff" }}
           >
             <h2 className="text-[34px] font-semibold mv-2 text-[#1F1F1F]">
@@ -48,7 +47,7 @@ export default function Ceo() {
             </p>
           </div>
 
-          <div
+          {/* <div
             className="rounded-md shadow-lg p-5 ceo-abs-1 pb-10"
             style={{ background: "#fff" }}
           >
@@ -92,7 +91,7 @@ export default function Ceo() {
                 advancements in customer service and technology.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </AnimatedInView>
