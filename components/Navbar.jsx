@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <>
       <div
-        className={`navbar ${
+        className={`navbar hidden lg:flex items-center justify-between ${
           router.pathname === "/"
             ? "bg-image"
             : router.pathname === "/about"
@@ -62,7 +62,7 @@ export default function Navbar() {
         </div>
       </div>
       <div
-        className={`navbar-mobile  backdrop-blur-md ${
+        className={`navbar-mobile block lg:hidden backdrop-blur-md ${
           router.pathname === "/"
             ? "bg-image"
             : router.pathname === "/about"

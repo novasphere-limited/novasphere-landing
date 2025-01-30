@@ -361,12 +361,12 @@ p {
   padding: 4px;
 }
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
 }
 .navbar-mobile {
-  display: none;
+  /* display: none; */
   padding: 0.5rem 1rem;
 }
 
@@ -709,13 +709,6 @@ p {
 
   .footer-grid {
     grid-template-columns: 4fr 8fr;
-  }
-
-  .navbar {
-    display: none;
-  }
-  .navbar-mobile {
-    display: block;
   }
   .spec-pt {
     padding-top: 48px;
