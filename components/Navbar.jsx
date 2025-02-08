@@ -37,7 +37,7 @@ export default function Navbar() {
           {NavList.map((nav) => (
             <Link key={nav.id} href={nav.route} className="relative">
               <h6
-                className={`text-base  ${
+                className={`text-base hover:font-semibold transition-all duration-800 ease-in-out ${
                   router.pathname === nav.route
                     ? "active-link font-semibold"
                     : "font-normal"
@@ -55,7 +55,7 @@ export default function Navbar() {
         </ul>
         <div className="bg-warning600 w-[187px] rounded-[4px]">
           <Link href={ROUTES.CONTACT}>
-            <h1 className="text-xl font-medium navbar_outline bg-warning600 text-white">
+            <h1 className="text-xl font-medium navbar_outline bg-warning600 text-white hover:bg-[#1f76d3] transition-all duration-300 ease-in-out">
               Contact Us
             </h1>
           </Link>
@@ -95,7 +95,7 @@ export default function Navbar() {
             {NavList.map((nav) => (
               <Link key={nav.id} href={nav.route} className="relative">
                 <h6
-                  className={`label-3_medium mb-2 ${
+                  className={`label-3_medium mb-2 hover:font-semibold ${
                     router.pathname === nav.route ? "active-link" : ""
                   }`}
                 >
@@ -104,7 +104,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link href={ROUTES.CONTACT}>
-              <h1 className="label-3_medium navbar_outline bg-warning600 text-white w-1/2">
+              <h1 className="label-3_medium navbar_outline bg-warning600 text-white w-1/2 transition-all duration-300 ease-in-out bg-[#1f76d3]">
                 Contact Us
               </h1>
             </Link>

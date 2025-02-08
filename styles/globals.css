@@ -435,6 +435,9 @@ p {
   padding: 0.5rem 4rem;
   border-radius: 8px;
 }
+.btn-nova_bg:hover {
+  background: #1f76d3 !important;
+}
 .btn-nova_bg {
   background: #3090f8 !important;
   color: #fefcfc;
