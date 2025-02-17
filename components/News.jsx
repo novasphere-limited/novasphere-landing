@@ -1,4 +1,3 @@
-import { NewsList } from "@/contants";
 import Image from "next/image";
 import Link from "next/link";
 

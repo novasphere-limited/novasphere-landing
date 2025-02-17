@@ -11,7 +11,7 @@ import StartProject from "@/components/StartProject";
 export default function NovasphereHome() {
   return (
     <Layout>
-      <div className="bg-[#e2e2e2] spec-pt">
+      <div className="bg-[#FAF8FE] spec-pt">
         <div className="bg-image">
           <HeroSection />
         </div>
