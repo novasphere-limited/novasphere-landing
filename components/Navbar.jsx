@@ -16,20 +16,20 @@ export default function Navbar() {
   return (
     <>
       <div
-        className={`navbar ${
+        className={`navbar hidden lg:flex items-center justify-between ${
           router.pathname === "/"
             ? "bg-image"
             : router.pathname === "/about"
             ? "bg-[#EEF8FF] backdrop-blur-md"
             : "bg-[#ECF3F54D]"
-        } xl:px-[100px] lg:px-[75px] md:px-[50px] text-[#545353] backdrop-blur-md`}
+        } xl:px-[100px] py-[18px] lg:px-[75px] md:px-[50px] text-[#545353] backdrop-blur-md`}
         style={{ position: "fixed", top: "0", width: "100%", zIndex: "1000" }}
       >
         <Link href="/">
           <Image
-            src="/asset/nova_logo.png"
-            width={88}
-            height={84}
+            src="/asset/nov-logo.png"
+            width={190}
+            height={150}
             alt="paymee logo"
           />
         </Link>
@@ -37,7 +37,7 @@ export default function Navbar() {
           {NavList.map((nav) => (
             <Link key={nav.id} href={nav.route} className="relative">
               <h6
-                className={`text-base  ${
+                className={`text-base hover:font-semibold transition-all duration-800 ease-in-out ${
                   router.pathname === nav.route
                     ? "active-link font-semibold"
                     : "font-normal"
@@ -55,14 +55,14 @@ export default function Navbar() {
         </ul>
         <div className="bg-warning600 w-[187px] rounded-[4px]">
           <Link href={ROUTES.CONTACT}>
-            <h1 className="text-xl font-medium navbar_outline bg-warning600 text-white">
+            <h1 className="text-xl font-medium navbar_outline bg-warning600 text-white hover:bg-[#1f76d3] transition-all duration-300 ease-in-out">
               Contact Us
             </h1>
           </Link>
         </div>
       </div>
       <div
-        className={`navbar-mobile  backdrop-blur-md ${
+        className={`navbar-mobile block lg:hidden backdrop-blur-md ${
           router.pathname === "/"
             ? "bg-image"
             : router.pathname === "/about"
@@ -74,11 +74,11 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-[73px]">
           <Link href="/" className="">
             <Image
-              src="/asset/nova_logo.png"
+              src="/asset/nov-logo.png"
               width={100}
-              height={43}
+              height={63}
               alt="paymee logo"
-              style={{ height: "43px !important", objectFit: "cover" }}
+              style={{ height: "63px !important", objectFit: "cover" }}
             />
           </Link>
           <button onClick={handleNavbar}>
@@ -95,7 +95,7 @@ export default function Navbar() {
             {NavList.map((nav) => (
               <Link key={nav.id} href={nav.route} className="relative">
                 <h6
-                  className={`label-3_medium mb-2 ${
+                  className={`label-3_medium mb-2 hover:font-semibold ${
                     router.pathname === nav.route ? "active-link" : ""
                   }`}
                 >
@@ -104,7 +104,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link href={ROUTES.CONTACT}>
-              <h1 className="label-3_medium navbar_outline bg-warning600 text-white w-1/2">
+              <h1 className="label-3_medium navbar_outline bg-warning600 text-white w-1/2 transition-all duration-300 ease-in-out bg-[#1f76d3]">
                 Contact Us
               </h1>
             </Link>

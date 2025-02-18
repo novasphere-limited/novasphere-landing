@@ -7,6 +7,7 @@ import React, { useRef } from "react";
 import AnimatedInView from "./Animate";
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <AnimatedInView
       threshold={0.5}
@@ -100,12 +101,12 @@ export default function Footer() {
         </div>
         <p className="text-sm text-center xl:mt-[107px] mt-5 sm:mt-7 md:mt-10 lg:mt-[70px]">
           <span
-            className="rounded-full px-1 text-center me-1 h-2 w-2"
+            className="rounded-full px-1 text-center me-1"
             style={{ border: "1px solid" }}
           >
             c
           </span>
-          2023 Novasphere-All Right Reserved
+          {currentYear} Novasphere-All Right Reserved
         </p>
       </div>
     </AnimatedInView>

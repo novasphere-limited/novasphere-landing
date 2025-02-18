@@ -21,8 +21,8 @@ input:focus {
 
 #__next img,
 #__next video {
-  max-width: none !important; /* Override max-width */
-  height: auto !important; /* Override height */
+  max-width: none !important;
+  height: auto !important;
 }
 
 body {
@@ -361,12 +361,12 @@ p {
   padding: 4px;
 }
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
 }
 .navbar-mobile {
-  display: none;
+  /* display: none; */
   padding: 0.5rem 1rem;
 }
 
@@ -394,9 +394,9 @@ p {
 .about-abs {
   position: absolute;
   top: 50%;
-  left: 10%;
+  left: 5%;
   transform: translateY(-50%);
-  max-width: 619px;
+  max-width: 600px;
 }
 
 .ceo-abs {
@@ -434,6 +434,9 @@ p {
   color: #fefcfc;
   padding: 0.5rem 4rem;
   border-radius: 8px;
+}
+.btn-nova_bg:hover {
+  background: #1f76d3 !important;
 }
 .btn-nova_bg {
   background: #3090f8 !important;
@@ -709,13 +712,6 @@ p {
 
   .footer-grid {
     grid-template-columns: 4fr 8fr;
-  }
-
-  .navbar {
-    display: none;
-  }
-  .navbar-mobile {
-    display: block;
   }
   .spec-pt {
     padding-top: 48px;
