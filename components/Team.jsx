@@ -1,7 +1,5 @@
 import { TeamList } from "@/contants";
-import Image from "next/image";
 import Counter from "./Counter";
-import AnimatedInView from "./Animate";
 
 export default function Team() {
   return (
@@ -25,13 +23,19 @@ export default function Team() {
               index === 0 || index === 2
                 ? "sm:mt-[40px] mt-[15px]"
                 : "sm:mb-[40px] mb-0"
-            } relative h-[540px] bg-no-repeat bg-cover`}
+            } relative h-[540px] bg-no-repeat bg-cover overflow-hidden rounded-lg`}
             key={team.id}
             style={{ backgroundImage: `url(${team.imgSrc})` }}
           >
-            <div className="w-full absolute bottom-0 text-white bg-black bg-opacity-20 backdrop-blur-[4px] px-auto w-[300px]">
+            <div
+              className="w-full absolute bottom-0 text-white px-auto w-[300px] py-6"
+              style={{
+                background:
+                  "linear-gradient(0deg, rgba(0, 0, 0, 0.86) 70.58%, rgba(115, 115, 115, 0.01) 98.01%)",
+              }}
+            >
               <h4 className="font-normal text-[28px] mb-2">{team.name}</h4>
-              <p className="font-normal text-base mb-2">{team.department}</p>
+              <p className="font-normal text-base">{team.department}</p>
             </div>
           </div>
         ))}

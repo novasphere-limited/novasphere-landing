@@ -5,7 +5,7 @@ import Subscribe from "@/components/Subscribe";
 export default function Contact() {
   return (
     <Layout>
-      <div className="bg-[#e2e2e2] spec-pt">
+      <div className="bg-[#FAF8FE] spec-pt">
         <ContactUs />
         <Subscribe />
       </div>

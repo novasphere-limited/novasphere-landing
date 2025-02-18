@@ -13,13 +13,11 @@ export default function ModalContent({ modalObj }) {
       <p className="text-xl text-[#444444] font-normal xl:mb-[154px] lg:mb-[124px] mb-5 sm:mb-10 md:mb-[84px] text-start">
         {modalObj.content}
       </p>
-      {/* <div className="flex justify-start"> */}
       <Link href="/contact">
         <button className="md:text-2xl text-xl font-medium md:px-[48px] md:py-[10px] sm:px-[30px] px-3 py-3 bg-warning600 text-white rounded-md sm:w-auto w-full md:flex justify-start">
           Contact Us
         </button>
       </Link>
-      {/* </div> */}
     </div>
   );
 }

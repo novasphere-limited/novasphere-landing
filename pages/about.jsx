@@ -11,7 +11,7 @@ import Team from "@/components/Team";
 export default function About() {
   return (
     <Layout>
-      <div className="bg-[#e2e2e2] spec-pt">
+      <div className="bg-[#FAF8FE] spec-pt">
         <div className="bg-image">
           <AboutHerosection />
         </div>

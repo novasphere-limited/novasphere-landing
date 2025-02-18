@@ -1,5 +1,4 @@
 import Image from "next/image";
-import LinkBtn from "./LinkBtn";
 import { ROUTES } from "@/contants/ROUTES";
 import Link from "next/link";
 

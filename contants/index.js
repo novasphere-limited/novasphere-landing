@@ -136,22 +136,19 @@ export const NavList = [
 export const TeamList = [
   {
     id: 2,
-    imgSrc:
-      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1712331984/DE25A5F4-4703-4B50-8170-251F8E0ADF0E_zvtwvt.png",
+    imgSrc: "/asset/abt-3.png",
     name: "Charles",
     department: "Chief Marketing Officer",
   },
   {
     id: 1,
-    imgSrc:
-      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1712331980/A776746C-665E-4652-AEFD-5AAA52C65662_btcsib.png",
+    imgSrc: "/asset/abt-4.png",
     name: "Faruq",
     department: "CTO/Head Engineering",
   },
   {
     id: 3,
-    imgSrc:
-      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1712331981/8909FDF2-7EA9-4086-82E7-2C11FEF2B560_refzix.png",
+    imgSrc: "/asset/abt-5.png",
     name: "Maryam",
     department: "Chief Product Officer",
   },

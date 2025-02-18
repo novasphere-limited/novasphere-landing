@@ -1,8 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
-import Button from "./Button";
 import LinkBtn from "./LinkBtn";
-import AnimatedInView from "./Animate";
 
 export default function HeroSection() {
   return (

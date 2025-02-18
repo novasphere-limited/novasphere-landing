@@ -14,9 +14,13 @@
   box-sizing: border-box;
 }
 input:focus {
-  border: none !important;
+  border: none;
   outline: none !important;
   box-shadow: none !important;
+}
+
+.input-contact:focus {
+  border-bottom: 1px solid #d2d2d2 !important;
 }
 
 #__next img,
@@ -533,10 +537,10 @@ p {
   background-position: center;
 }
 .bg-about-img {
-  background-image: url("https://res.cloudinary.com/dstqfrcxx/image/upload/v1712331999/F57F6C1C-2575-48D7-9893-14E0DE6B959E_btyhaw.png");
-  background-size: contain;
+  background-image: url("/asset/abt-bg.png");
+  background-size: 745px 610px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top 30px;
 }
 .demo-bg-img {
   background-image: url("/asset/nova-bg-demo.png");

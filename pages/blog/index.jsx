@@ -39,7 +39,7 @@ export default function BlogPage() {
   }, []);
   return (
     <Layout>
-      <div className="bg-[#e2e2e2] spec-pt">
+      <div className="bg-[#FAF8FE] spec-pt">
         <Blog />
         <Tab setTab={setTab} tab={tab} />
         {tab === "blog" ? (

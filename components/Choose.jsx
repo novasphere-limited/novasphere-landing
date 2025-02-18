@@ -1,5 +1,4 @@
 import Image from "next/image";
-import AnimatedInView from "./Animate";
 
 export default function Choose() {
   return (
@@ -17,7 +16,7 @@ export default function Choose() {
       <div className="grid-2_diff1 items-center sm:mb-[100px] mb-3">
         <div className="w-full">
           <Image
-            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712330379/8647F695-09BF-4D97-9E74-979B9DEFC6D7_zdv7qh.png"
+            src="/asset/chus-3.png"
             alt="Choose image"
             width={541}
             height={330}
@@ -68,7 +67,7 @@ export default function Choose() {
         </div>
         <div>
           <Image
-            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712330367/3D25A4FF-19F4-4CE8-A532-4CC534F8CFC6_cqhzwa.png"
+            src="/asset/chus-2.png"
             alt="Choose image"
             width={541}
             height={330}
@@ -93,7 +92,7 @@ export default function Choose() {
       <div className="grid-2_diff1 items-center">
         <div>
           <Image
-            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712331658/D0B104C7-ABA1-49FF-8FF1-706020FB6D50_c0fdfc.png"
+            src="/asset/chus-1.png"
             alt="Choose image"
             width={541}
             height={330}
