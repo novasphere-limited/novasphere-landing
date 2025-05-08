@@ -6,7 +6,7 @@ export default function AboutUs() {
       <div className="relative">
         <div className="my-4 flex justify-end">
           <Image
-            src="/asset/abt-1.png"
+            src="/asset/about-us-new-1.png"
             alt="Novasphere hero picture"
             width={781}
             height={590}

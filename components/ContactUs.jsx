@@ -73,7 +73,7 @@ export default function ContactUs() {
           />
           <div className=" lg:mt-[59px] mt-7">
             <button
-              className="hover:bg-[#1f76d3] md:w-[300px] w-full text-white bg-[#3090F8] text-sm font-semibold py-[10px] rounded-lg"
+              className="hover:bg-[#1f76d3] h-12 md:w-[300px] w-full text-white bg-[#3090F8] text-sm font-semibold py-[10px] rounded-md"
               type={"submit"}
               disabled={contactDataIsLoading}
             >

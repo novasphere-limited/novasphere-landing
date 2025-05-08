@@ -53,7 +53,9 @@ export default function BlogPage() {
                 ) : (
                   <div>
                     <BlogSlide data={blogsContentData?.items[0]} />
-                    <News data={blogsContentData?.items.slice(1)} />
+                    {blogsContentData?.items.length > 1 && (
+                      <News data={blogsContentData?.items.slice(1)} />
+                    )}
                   </div>
                 )}
               </>
@@ -70,7 +72,11 @@ export default function BlogPage() {
                 ) : (
                   <div>
                     <FeaturedSlide data={featuredContentsData?.items[0]} />
-                    <FeaturedNews data={featuredContentsData?.items.slice(1)} />
+                    {featuredContentsData?.items?.length > 1 && (
+                      <FeaturedNews
+                        data={featuredContentsData?.items.slice(1)}
+                      />
+                    )}
                   </div>
                 )}
               </>

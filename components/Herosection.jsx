@@ -29,7 +29,7 @@ export default function HeroSection() {
       <div className="relative xl:mt-[100px] mt-4 sm:mt-8 md:mt-12 lg:mt-[75px]">
         <div className="flex justify-center my-4 lg:h-[683px] overflow-hidden h-auto xl:px-[100px] lg:px-[75px] md:px-[35px]">
           <Image
-            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712331407/6E11328D-8F76-48CF-AA46-AD9C6A58F002_airfcu.png"
+            src="/asset/home-hero-new.png"
             alt="Novasphere hero picture"
             width={1223}
             height={684}

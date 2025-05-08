@@ -1,10 +1,11 @@
 import { TeamList } from "@/contants";
 import Counter from "./Counter";
+import Image from "next/image";
 
 export default function Team() {
   return (
     <div className="main-container text-center">
-      <h1 className="md:text-2xl text-xl font-bold md:mb-4 mb-2 text-center  text-warning700">
+      <h1 className="md:text-2xl text-xl font-bold md:mb-4 mb-2 text-center mt-5 text-warning700">
         Meet the Team
       </h1>
       <div className="flex justify-center">
@@ -16,19 +17,28 @@ export default function Team() {
         </h3>
       </div>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 grid-cols-1 justify-center team-margin">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 grid-cols-1 justify-center team-margin">
         {TeamList.map((team, index) => (
           <div
             className={`${
               index === 0 || index === 2
                 ? "sm:mt-[40px] mt-[15px]"
                 : "sm:mb-[40px] mb-0"
-            } relative h-[540px] bg-no-repeat bg-cover overflow-hidden rounded-lg`}
+            } relative overflow-hidden rounded-lg`}
             key={team.id}
-            style={{ backgroundImage: `url(${team.imgSrc})` }}
           >
+            <Image
+              src={team.imgSrc}
+              alt={team.name}
+              width={300}
+              height={540}
+              className="object-cover"
+              sizes="(max-width: 768px)"
+              priority={index < 3}
+            />
+
             <div
-              className="w-full absolute bottom-0 text-white px-auto w-[300px] py-6"
+              className="w-full max-w-[300px] absolute bottom-0 text-white px-auto py-6 rounded-b-lg"
               style={{
                 background:
                   "linear-gradient(0deg, rgba(0, 0, 0, 0.86) 70.58%, rgba(115, 115, 115, 0.01) 98.01%)",
