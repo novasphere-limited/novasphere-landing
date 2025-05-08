@@ -13,7 +13,7 @@ export default function Blog() {
               The latest news, announcements from Novasphere
             </p>
           </div>
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <div
               className="px-2 py-1 flex items-center rounded-sm "
               style={{ border: "1px solid #B4B4B4", maxWidth: "322px" }}
@@ -35,7 +35,7 @@ export default function Blog() {
                 />
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
