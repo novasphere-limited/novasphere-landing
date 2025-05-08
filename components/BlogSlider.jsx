@@ -26,7 +26,7 @@ export default function BlogSlide({ data }) {
             <Image
               alt="Nova slider image"
               src={
-                // data?.fileUrl ||
+                data?.fileUrl ||
                 "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356910/PayyMe/Article_Figure_Link_linkedin-sales-solutions-wS73LE0GnKs-unsplash.jpg_zrubau.png"
               }
               width={473}
