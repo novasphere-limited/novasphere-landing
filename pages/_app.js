@@ -22,7 +22,7 @@ function App({ Component, emotionCache = clientSideEmotionCache, pageProps }) {
         <title>Novasphere</title>
         <link
           rel="shortcut icon"
-          href="https://res.cloudinary.com/dstqfrcxx/image/upload/v1712341195/740F2F3B-9789-45C4-91B6-D4D75513B0A8_ucomfg.png"
+          href="/asset/nov-icon-new.png"
           type="image/x-icon"
         />
       </Head>
