@@ -12,6 +12,7 @@ export default function Ceo() {
             width={511}
             height={513}
             loading="lazy"
+            className="w-full md:w-auto"
           />
         </div>
         <div
