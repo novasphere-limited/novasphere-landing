@@ -44,13 +44,13 @@ export default function AboutHerosection() {
             </div>
           </div>
         </div>
-        <div className="absolute bottom-[62px] w-full hidden xl:block">
+        <div className="absolute bottom-0 w-full hidden xl:block h-[100px]">
           <Image
             layout="fill"
             alt="About background bottom icon"
             src="/asset/about-mini-bg.png"
             className="w-full"
-            style={{ objectFit: "contain" }}
+            // style={{ objectFit: "contain" }}
           />
         </div>
       </div>

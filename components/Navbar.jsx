@@ -26,12 +26,7 @@ export default function Navbar() {
         style={{ position: "fixed", top: "0", width: "100%", zIndex: "1000" }}
       >
         <Link href="/">
-          <Image
-            src="/asset/nov-logo.png"
-            width={190}
-            height={150}
-            alt="paymee logo"
-          />
+          <img src="/asset/nov-logo-new.png" width={80} alt="Novasphere logo" />
         </Link>
         <ul>
           {NavList.map((nav) => (
@@ -73,12 +68,17 @@ export default function Navbar() {
       >
         <div className="flex justify-between items-center h-[73px]">
           <Link href="/" className="">
-            <Image
+            {/* <Image
               src="/asset/nov-logo.png"
               width={100}
               height={63}
               alt="paymee logo"
               style={{ height: "63px !important", objectFit: "cover" }}
+            /> */}
+            <img
+              src="/asset/nov-logo-new.png"
+              width={80}
+              alt="Novasphere logo"
             />
           </Link>
           <button onClick={handleNavbar}>
