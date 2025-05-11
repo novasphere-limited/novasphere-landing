@@ -12,16 +12,11 @@ export default function Footer() {
       <div className="footer-grid justify-between gap-10">
         <div className="w-full footer-flex_1">
           <div className="mb-[18px]">
-            {/* <Image
-              src="/asset/nov-logo.png"
-              width={136}
-              height={81}
+            <Image
+              src="/favicon_io/company-log.svg"
+              width={120}
+              height={47}
               alt="paymee logo"
-            /> */}
-            <img
-              src="/asset/nov-logo-new.png"
-              width={80}
-              alt="Novasphere logo"
             />
           </div>
           <p className="text-base font-normal">(+234)80945678</p>
