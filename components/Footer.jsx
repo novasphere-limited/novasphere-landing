@@ -20,9 +20,6 @@ export default function Footer() {
             />
           </div>
           <p className="text-base font-normal">(+234)80945678</p>
-          <h6 className="text-base font-normal">
-            4a Gbade Adeleke Street , Unity Estate , Lagos State
-          </h6>
           <p className="text-base font-normal">hello@novasphereltd.com</p>
         </div>
         <div className="w-full footer-flex_2">
