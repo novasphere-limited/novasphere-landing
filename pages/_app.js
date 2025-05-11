@@ -22,8 +22,9 @@ function App({ Component, emotionCache = clientSideEmotionCache, pageProps }) {
         <title>Novasphere</title>
         <link
           rel="shortcut icon"
-          href="/asset/nov-icon-new.png"
+          href="/nova-icn-new.png"
           type="image/x-icon"
+          sizes="16x16"
         />
       </Head>
       <TanstackProvider>
